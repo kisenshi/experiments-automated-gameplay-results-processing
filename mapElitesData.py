@@ -47,7 +47,7 @@ def plotlyGraph(matrix, xInfo, yInfo, xLabels, yLabels, colorLabel, title):
     fig.write_image("test.png")
 
 def plotlyExpress(data, xInfo, yInfo, xLabels, yLabels, colorLabel, gameLabel, nAgents):
-    title = gameLabel + ": " + str(nAgents) + " AGENTS"
+    title = gameLabel + ": " + str(nAgents) + " ELITES"
 
     labels = dict(
         x=xInfo, 
