@@ -1,5 +1,25 @@
-# 
+# Generate config files for each of the team members generated from the
+# experiments presented in "MAP-Elites to Generate a Team of Agents that Elicits 
+# Diverse Automated Gameplay". Parse the final resulting json containing the
+# information about the experiments and resulting MAP-Elites and agents 
+# description and generates individual json config files for each of them.
+# These config files are meant to be used in the automatedGameplay standalone
+# to trigger and run each agent.
 #
+# Copyright (C) 2021 Cristina Guerrero-Romero
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import glob
 import json

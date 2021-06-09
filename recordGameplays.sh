@@ -1,9 +1,25 @@
-# BUTTERFLIES: screencapture -v -R 0,23,783,330 testButterflies.webm
-# ZELDA: screencapture -v -R 0,23,792,320 testZelda.webm
-# DIGDUG: screencapture -v -R 0,23,810,472 testDigdug.webm
-
-# <game>_<experimentId>_<cellX>_<cellY>.json
-# <game>_<experimentId>_<cellX>_<cellY>.webm
+# Run and record automated gameplays for Butterflies, Zelda and Digdug
+# based on the json config files provided. Makes use of the project
+# "automatedGameplay". The implementation of this standalone project can be found at 
+# https://github.com/kisenshi/gvgai-heuristic-extension/tree/automated-gameplay-standalone
+# The work is related to the one presented at "MAP-Elites to Generate a Team of 
+# Agents that Elicits Diverse Automated Gameplay" so refer to it for more
+# details about the data, agents and motivation.
+#
+# Copyright (C) 2021 Cristina Guerrero-Romero
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 #!/usr/bin/env bash
 
