@@ -1,4 +1,11 @@
 .DS_Store
 *.gif
 *.png
-*/*
+baseTest/*
+TEST/*
+B2/*
+B3/*
+D5/*
+Z5/*
+automatedGameplay/videos/*
+__pycache__/*
