@@ -1,9 +1,9 @@
 # MAP-Elites to Generate a Team of Agents that Elicits Diverse Automated Gameplay: Scripts and results processing
 
 This repository contains the scripts to process the experiments resulting from the work 
-described in [MAP-Elites to Generate a Team of Agents that Elicits Diverse Automated Gameplay]().
+described in [MAP-Elites to Generate a Team of Agents that Elicits Diverse Automated Gameplay](http://kisenshi.github.io/files/paper-map-elites-generation-team-agents-behaviour.pdf).
 
-For more information, refer to the [Github repository with the code to run the experiments](https://github.com/kisenshi/gvgai-heuristic-extension) and [OSF repository containing the experiments results and data](https://osf.io/whxm8/).
+For more information, refer to the [Github repository with the code to run the experiments](https://github.com/kisenshi/gvgai-agent-behaviour-research) and [OSF repository containing the experiments results and data](https://osf.io/whxm8/).
 
 The scripts implemented allow automatising and processing the resulting JSON files as follows:
 
