@@ -7,6 +7,9 @@ B2/*
 B3/*
 D5/*
 Z5/*
+S4/*
+imgs/*
+*.zip
 automatedGameplay/videos/*
-automatedGameplay/configFiles/processed/
+automatedGameplay/configFiles/*
 __pycache__/*
