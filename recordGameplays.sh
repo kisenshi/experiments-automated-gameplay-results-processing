@@ -1,4 +1,4 @@
-# Run and record automated gameplays for Butterflies, Zelda and Digdug
+# Run and record automated gameplays for Butterflies, Zelda, Digdug and Sheriff
 # based on the json config files provided. Makes use of the project
 # "automatedGameplay". The implementation of this standalone project can be found at 
 # https://github.com/kisenshi/gvgai-heuristic-extension/tree/automated-gameplay-standalone
@@ -43,6 +43,10 @@ case $2 in
 	DIGDUG)
 		echo "Running automated gameplays of digdug"
         captureSize="0,23,810,472"
+		;;
+    SHERIFF)
+		echo "Running automated gameplays of sheriff"
+        captureSize="0,23,799,394"
 		break
 		;;
     *)
