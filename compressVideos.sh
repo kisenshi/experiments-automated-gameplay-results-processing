@@ -22,6 +22,6 @@ do
     # Compress video using ffmpeg. The idea for the command comes from the Stackoverflow answer linked above
     # Remove black frames, compress and convert to mp4
     echo "ffmpeg -i $videoFile -vf blackframe=1,metadata=select:key=lavfi.blackframe.pblack:value=0:function=less -vcodec libx264 -vsync cfr -crf 24 compressed/$fileName.mp4"
-    ffmpeg -i $videoFile -vf blackframe=1,metadata=select:key=lavfi.blackframe.pblack:value=0:function=less -vcodec libx264 -vsync cfr -crf 24 compressed/$fileName.mp4
+    ffmpeg -i $videoFile -vf blackframe=1,metadata=select:key=lavfi.blackframe.pblack:value=98:function=less -vcodec libx264 -vsync cfr -crf 24 compressed/$fileName.mp4
     echo ""
 done

@@ -46,7 +46,7 @@ case $2 in
 		;;
     SHERIFF)
 		echo "Running automated gameplays of sheriff"
-        captureSize="0,23,799,394"
+        captureSize="0,23,799,373"
 		break
 		;;
     *)
