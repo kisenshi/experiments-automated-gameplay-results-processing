@@ -1,0 +1,20 @@
+{
+	"game": "SHERIFF",
+	"level": 0,
+	"behaviours": [
+		"WINNER",
+		"EXPLORER",
+		"CURIOUS",
+		"KILLER"
+	],
+	"weights": [
+		0.57,
+		0.05,
+		0.03,
+		0.92
+	],
+	"experimentId": "30S04a_11_9",
+    "visuals": false,
+	"nGameRuns": 100,
+	"nLevels": 6
+}

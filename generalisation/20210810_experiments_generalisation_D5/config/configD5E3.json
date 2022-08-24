@@ -1,0 +1,22 @@
+{
+	"game": "DIGDUG",
+	"level": 0,
+	"behaviours": [
+		"WINNER",
+		"EXPLORER",
+		"CURIOUS",
+		"KILLER",
+		"COLLECTOR"
+	],
+	"weights": [
+		0,
+		0,
+		0,
+		1,
+		0
+	],
+	"experimentId": "30D0j_4_4",
+    "visuals": false,
+	"nGameRuns": 100,
+	"nLevels": 6
+}

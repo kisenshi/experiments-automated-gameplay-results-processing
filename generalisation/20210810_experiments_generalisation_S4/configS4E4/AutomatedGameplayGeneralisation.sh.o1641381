@@ -1,0 +1,4 @@
+mkdir 20210810_experiments_generalisation_S4/configS4E4
+cp AutomatedGameplayGeneralisation.jar 20210810_experiments_generalisation_S4/configS4E4/AutomatedGameplayGeneralisation-configS4E4.jar
+cp -r examples 20210810_experiments_generalisation_S4/configS4E4
+Running java -jar AutomatedGameplayGeneralisation-configS4E4.jar ../config/configS4E4.json >> log_configS4E4.txt

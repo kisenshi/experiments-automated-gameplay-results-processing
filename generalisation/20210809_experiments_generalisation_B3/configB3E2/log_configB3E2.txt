@@ -1,0 +1,2560 @@
+Config file: ../config/configB3E2.json
+
+Behaviours set for the agent: 
+WINNER -> true
+EXPLORER -> true
+CURIOUS -> true
+KILLER -> false
+COLLECTOR -> false
+
+Automated gameplay of BUTTERFLIES level 0. 
+Data from experiment 30B03h_8_6
+Behaviours: [WINNER, EXPLORER, CURIOUS]
+Weights: [0.1, 0.45, 0.67]
+Visuals false
+Number of game runs: 100
+
+Running automated gameplay of lvl 0...
+
+0 with seed -765147559
+Result (1->win; 0->lose): Player0:0, Player0-Score:58.0, timesteps:1559
+1 with seed 282149132
+Result (1->win; 0->lose): Player0:1, Player0-Score:28.0, timesteps:1994
+2 with seed 234637313
+Result (1->win; 0->lose): Player0:1, Player0-Score:22.0, timesteps:86
+3 with seed -864342374
+Result (1->win; 0->lose): Player0:0, Player0-Score:38.0, timesteps:2000
+4 with seed -1789659406
+Result (1->win; 0->lose): Player0:0, Player0-Score:62.0, timesteps:2000
+5 with seed 707544983
+Result (1->win; 0->lose): Player0:1, Player0-Score:44.0, timesteps:1997
+6 with seed -327270339
+Result (1->win; 0->lose): Player0:1, Player0-Score:14.0, timesteps:289
+7 with seed 1527910933
+Result (1->win; 0->lose): Player0:0, Player0-Score:60.0, timesteps:2000
+8 with seed 1059646791
+Result (1->win; 0->lose): Player0:0, Player0-Score:28.0, timesteps:2000
+9 with seed 1615128101
+Result (1->win; 0->lose): Player0:0, Player0-Score:66.0, timesteps:1520
+10 with seed 233822328
+Result (1->win; 0->lose): Player0:0, Player0-Score:52.0, timesteps:2000
+11 with seed 17075648
+Result (1->win; 0->lose): Player0:1, Player0-Score:58.0, timesteps:1997
+12 with seed -440289345
+Result (1->win; 0->lose): Player0:1, Player0-Score:38.0, timesteps:1997
+13 with seed -1245354292
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:2000
+14 with seed 1540835308
+Result (1->win; 0->lose): Player0:0, Player0-Score:34.0, timesteps:2000
+15 with seed -779809832
+Result (1->win; 0->lose): Player0:1, Player0-Score:74.0, timesteps:1995
+16 with seed 1596332829
+Result (1->win; 0->lose): Player0:1, Player0-Score:62.0, timesteps:1996
+17 with seed 1351150408
+Result (1->win; 0->lose): Player0:1, Player0-Score:50.0, timesteps:241
+18 with seed 692624371
+Result (1->win; 0->lose): Player0:0, Player0-Score:60.0, timesteps:2000
+19 with seed 504052181
+Result (1->win; 0->lose): Player0:0, Player0-Score:60.0, timesteps:2000
+20 with seed 363216086
+Result (1->win; 0->lose): Player0:0, Player0-Score:58.0, timesteps:2000
+21 with seed -1291541090
+Result (1->win; 0->lose): Player0:0, Player0-Score:34.0, timesteps:2000
+22 with seed 698074598
+Result (1->win; 0->lose): Player0:0, Player0-Score:62.0, timesteps:2000
+23 with seed -1746787944
+Result (1->win; 0->lose): Player0:1, Player0-Score:66.0, timesteps:1997
+24 with seed -1584739820
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:2000
+25 with seed -16275088
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+26 with seed -1780517669
+Result (1->win; 0->lose): Player0:1, Player0-Score:68.0, timesteps:1967
+27 with seed -1772868172
+Result (1->win; 0->lose): Player0:0, Player0-Score:52.0, timesteps:2000
+28 with seed 1524015306
+Result (1->win; 0->lose): Player0:0, Player0-Score:56.0, timesteps:2000
+29 with seed -696819516
+Result (1->win; 0->lose): Player0:0, Player0-Score:38.0, timesteps:2000
+30 with seed -1198199348
+Result (1->win; 0->lose): Player0:0, Player0-Score:60.0, timesteps:2000
+31 with seed -782477912
+Result (1->win; 0->lose): Player0:0, Player0-Score:60.0, timesteps:1694
+32 with seed 2131436454
+Result (1->win; 0->lose): Player0:0, Player0-Score:62.0, timesteps:2000
+33 with seed -274426643
+Result (1->win; 0->lose): Player0:1, Player0-Score:36.0, timesteps:1995
+34 with seed -172388570
+Result (1->win; 0->lose): Player0:1, Player0-Score:74.0, timesteps:1997
+35 with seed 388625487
+Result (1->win; 0->lose): Player0:1, Player0-Score:42.0, timesteps:1995
+36 with seed -418624009
+Result (1->win; 0->lose): Player0:1, Player0-Score:20.0, timesteps:209
+37 with seed -948791890
+Result (1->win; 0->lose): Player0:1, Player0-Score:26.0, timesteps:1999
+38 with seed -1728233937
+Result (1->win; 0->lose): Player0:0, Player0-Score:36.0, timesteps:2000
+39 with seed 1506943398
+Result (1->win; 0->lose): Player0:1, Player0-Score:68.0, timesteps:1994
+40 with seed 970715543
+Result (1->win; 0->lose): Player0:1, Player0-Score:14.0, timesteps:254
+41 with seed 777671456
+Result (1->win; 0->lose): Player0:0, Player0-Score:26.0, timesteps:2000
+42 with seed -543187543
+Result (1->win; 0->lose): Player0:0, Player0-Score:42.0, timesteps:2000
+43 with seed 144371977
+Result (1->win; 0->lose): Player0:0, Player0-Score:40.0, timesteps:2000
+44 with seed 1104471356
+Result (1->win; 0->lose): Player0:0, Player0-Score:20.0, timesteps:2000
+45 with seed 630792712
+Result (1->win; 0->lose): Player0:1, Player0-Score:62.0, timesteps:2000
+46 with seed 2143325629
+Result (1->win; 0->lose): Player0:0, Player0-Score:28.0, timesteps:2000
+47 with seed -1949736300
+Result (1->win; 0->lose): Player0:0, Player0-Score:72.0, timesteps:2000
+48 with seed 776568084
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+49 with seed 1501993844
+Result (1->win; 0->lose): Player0:1, Player0-Score:58.0, timesteps:1994
+50 with seed 177922571
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:2000
+51 with seed -1326261091
+Result (1->win; 0->lose): Player0:0, Player0-Score:58.0, timesteps:2000
+52 with seed -261641893
+Result (1->win; 0->lose): Player0:0, Player0-Score:46.0, timesteps:2000
+53 with seed -1363808919
+Result (1->win; 0->lose): Player0:1, Player0-Score:38.0, timesteps:1998
+54 with seed -1260836125
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+55 with seed 1749234675
+Result (1->win; 0->lose): Player0:0, Player0-Score:24.0, timesteps:2000
+56 with seed -473643062
+Result (1->win; 0->lose): Player0:1, Player0-Score:38.0, timesteps:1994
+57 with seed 1153424239
+Result (1->win; 0->lose): Player0:1, Player0-Score:44.0, timesteps:1999
+58 with seed 1755659692
+Result (1->win; 0->lose): Player0:0, Player0-Score:24.0, timesteps:2000
+59 with seed -1898029490
+Result (1->win; 0->lose): Player0:0, Player0-Score:58.0, timesteps:2000
+60 with seed -1453069777
+Result (1->win; 0->lose): Player0:0, Player0-Score:64.0, timesteps:2000
+61 with seed 706063875
+Result (1->win; 0->lose): Player0:0, Player0-Score:58.0, timesteps:2000
+62 with seed -1445708826
+Result (1->win; 0->lose): Player0:0, Player0-Score:36.0, timesteps:2000
+63 with seed -315006101
+Result (1->win; 0->lose): Player0:1, Player0-Score:42.0, timesteps:1998
+64 with seed -488421175
+Result (1->win; 0->lose): Player0:1, Player0-Score:22.0, timesteps:1996
+65 with seed 1580380444
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+66 with seed 194044082
+Result (1->win; 0->lose): Player0:0, Player0-Score:58.0, timesteps:2000
+67 with seed -1131884189
+Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:2000
+68 with seed 1500847571
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+69 with seed 1564904079
+Result (1->win; 0->lose): Player0:1, Player0-Score:60.0, timesteps:1755
+70 with seed -140761882
+Result (1->win; 0->lose): Player0:0, Player0-Score:44.0, timesteps:2000
+71 with seed 866932692
+Result (1->win; 0->lose): Player0:0, Player0-Score:66.0, timesteps:2000
+72 with seed -1388232492
+Result (1->win; 0->lose): Player0:0, Player0-Score:62.0, timesteps:2000
+73 with seed -606546480
+Result (1->win; 0->lose): Player0:0, Player0-Score:76.0, timesteps:2000
+74 with seed 176426047
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+75 with seed 617570285
+Result (1->win; 0->lose): Player0:1, Player0-Score:50.0, timesteps:1996
+76 with seed -194088210
+Result (1->win; 0->lose): Player0:0, Player0-Score:24.0, timesteps:2000
+77 with seed 213925461
+Result (1->win; 0->lose): Player0:0, Player0-Score:58.0, timesteps:2000
+78 with seed 635217127
+Result (1->win; 0->lose): Player0:0, Player0-Score:24.0, timesteps:2000
+79 with seed -1596462212
+Result (1->win; 0->lose): Player0:0, Player0-Score:70.0, timesteps:2000
+80 with seed 1310565084
+Result (1->win; 0->lose): Player0:0, Player0-Score:70.0, timesteps:2000
+81 with seed -2045498654
+Result (1->win; 0->lose): Player0:0, Player0-Score:60.0, timesteps:2000
+82 with seed 1498384019
+Result (1->win; 0->lose): Player0:0, Player0-Score:46.0, timesteps:1626
+83 with seed -895455795
+Result (1->win; 0->lose): Player0:0, Player0-Score:60.0, timesteps:2000
+84 with seed 1137658473
+Result (1->win; 0->lose): Player0:1, Player0-Score:76.0, timesteps:1993
+85 with seed 944109421
+Result (1->win; 0->lose): Player0:1, Player0-Score:22.0, timesteps:485
+86 with seed 2082503022
+Result (1->win; 0->lose): Player0:0, Player0-Score:66.0, timesteps:1654
+87 with seed -409599007
+Result (1->win; 0->lose): Player0:0, Player0-Score:56.0, timesteps:2000
+88 with seed 130988492
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:2000
+89 with seed 1211149053
+Result (1->win; 0->lose): Player0:0, Player0-Score:66.0, timesteps:2000
+90 with seed 311614292
+Result (1->win; 0->lose): Player0:1, Player0-Score:38.0, timesteps:2000
+91 with seed -1043225234
+Result (1->win; 0->lose): Player0:0, Player0-Score:38.0, timesteps:2000
+92 with seed -970443341
+Result (1->win; 0->lose): Player0:1, Player0-Score:62.0, timesteps:1995
+93 with seed -1459814444
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:1995
+94 with seed 851190316
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+95 with seed 424762034
+Result (1->win; 0->lose): Player0:1, Player0-Score:60.0, timesteps:1999
+96 with seed 1639573062
+Result (1->win; 0->lose): Player0:0, Player0-Score:62.0, timesteps:2000
+97 with seed -1273115630
+Result (1->win; 0->lose): Player0:0, Player0-Score:62.0, timesteps:1408
+98 with seed 937461885
+Result (1->win; 0->lose): Player0:0, Player0-Score:58.0, timesteps:2000
+99 with seed 985972215
+Result (1->win; 0->lose): Player0:1, Player0-Score:64.0, timesteps:1996
+Game ticks
+StatisticalSummaryValues:
+n: 100
+min: 86.0
+max: 2000.0
+mean: 1866.5299999999995
+std dev: 422.1771482985011
+variance: 178233.54454545458
+sum: 186653.0
+
+Win
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 1.0
+mean: 0.3299999999999998
+std dev: 0.47258156262526074
+variance: 0.22333333333333324
+sum: 33.0
+
+Score
+StatisticalSummaryValues:
+n: 100
+min: 14.0
+max: 76.0
+mean: 47.76000000000001
+std dev: 16.607847725114958
+variance: 275.82060606060605
+sum: 4776.0
+
+Tick last score change
+StatisticalSummaryValues:
+n: 100
+min: 86.0
+max: 2000.0
+mean: 1486.7599999999998
+std dev: 538.1746200037322
+variance: 289631.92161616153
+sum: 148676.0
+
+Tick last positive score change
+StatisticalSummaryValues:
+n: 100
+min: 86.0
+max: 2000.0
+mean: 1486.7599999999998
+std dev: 538.1746200037322
+variance: 289631.92161616153
+sum: 148676.0
+
+Exploration
+StatisticalSummaryValues:
+n: 100
+min: 72.0
+max: 206.0
+mean: 202.81
+std dev: 15.930210800915855
+variance: 253.77161616161618
+sum: 20281.0
+
+Exploration percentage
+StatisticalSummaryValues:
+n: 100
+min: 0.34951456310679613
+max: 1.0
+mean: 0.9845145631067961
+std dev: 0.07733112039279542
+variance: 0.00598010218120502
+sum: 98.4514563106796
+
+Exploration heatmap average
+Tick last new exploration
+StatisticalSummaryValues:
+n: 100
+min: 85.0
+max: 1685.0
+mean: 653.74
+std dev: 314.24456859091276
+variance: 98749.64888888889
+sum: 65374.0
+
+Sprites discovered
+StatisticalSummaryValues:
+n: 100
+min: 3.0
+max: 3.0
+mean: 3.0
+std dev: 0.0
+variance: 0.0
+sum: 300.0
+
+Tick last discovery
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Unique interactions
+StatisticalSummaryValues:
+n: 100
+min: 2.0
+max: 2.0
+mean: 2.0
+std dev: 0.0
+variance: 0.0
+sum: 200.0
+
+Curiosity interactions
+StatisticalSummaryValues:
+n: 100
+min: 20.0
+max: 143.0
+mean: 125.97000000000003
+std dev: 23.93360133217048
+variance: 572.8172727272726
+sum: 12597.0
+
+Tick last curiosity
+StatisticalSummaryValues:
+n: 100
+min: 85.0
+max: 1994.0
+mean: 1424.5199999999995
+std dev: 465.7335363366986
+variance: 216907.72686868696
+sum: 142452.0
+
+Total interactions
+StatisticalSummaryValues:
+n: 100
+min: 20.0
+max: 721.0
+mean: 380.8499999999999
+std dev: 117.31606062602036
+variance: 13763.058080808085
+sum: 38085.0
+
+Total collisions
+StatisticalSummaryValues:
+n: 100
+min: 20.0
+max: 721.0
+mean: 380.8499999999999
+std dev: 117.31606062602036
+variance: 13763.058080808085
+sum: 38085.0
+
+Tick last new collision
+StatisticalSummaryValues:
+n: 100
+min: 4.0
+max: 21.0
+mean: 8.899999999999999
+std dev: 3.7023061336241105
+variance: 13.70707070707071
+sum: 890.0
+
+Total hits
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last new hit
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Total kills
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last kill
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Total items collected
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last collection
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Automated gameplay of lvl 0finished
+Running automated gameplay of lvl 1...
+
+0 with seed -2125804505
+Result (1->win; 0->lose): Player0:1, Player0-Score:32.0, timesteps:164
+1 with seed 1571623866
+Result (1->win; 0->lose): Player0:1, Player0-Score:34.0, timesteps:1998
+2 with seed -1940818852
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+3 with seed 144130816
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+4 with seed -848565193
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+5 with seed 869671696
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+6 with seed -1259701545
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+7 with seed 147686719
+Result (1->win; 0->lose): Player0:1, Player0-Score:32.0, timesteps:2000
+8 with seed 1617385821
+Result (1->win; 0->lose): Player0:0, Player0-Score:26.0, timesteps:2000
+9 with seed -294486271
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+10 with seed -216359434
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+11 with seed -1626315090
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+12 with seed 1242712746
+Result (1->win; 0->lose): Player0:1, Player0-Score:32.0, timesteps:1998
+13 with seed 543099230
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+14 with seed -1566791151
+Result (1->win; 0->lose): Player0:1, Player0-Score:34.0, timesteps:1995
+15 with seed 1846364751
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+16 with seed -1853902069
+Result (1->win; 0->lose): Player0:1, Player0-Score:32.0, timesteps:1995
+17 with seed -1908753815
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+18 with seed -737672801
+Result (1->win; 0->lose): Player0:1, Player0-Score:32.0, timesteps:209
+19 with seed 65936633
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+20 with seed 1928398892
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+21 with seed 37515560
+Result (1->win; 0->lose): Player0:1, Player0-Score:30.0, timesteps:1999
+22 with seed 175145102
+Result (1->win; 0->lose): Player0:0, Player0-Score:26.0, timesteps:2000
+23 with seed 42763956
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+24 with seed 2075791972
+Result (1->win; 0->lose): Player0:1, Player0-Score:30.0, timesteps:1997
+25 with seed 1186755071
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+26 with seed -991946613
+Result (1->win; 0->lose): Player0:0, Player0-Score:26.0, timesteps:2000
+27 with seed -1403592760
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+28 with seed -1595725603
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+29 with seed 1260087318
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+30 with seed -1424808935
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+31 with seed -397033017
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+32 with seed 631853035
+Result (1->win; 0->lose): Player0:1, Player0-Score:34.0, timesteps:1995
+33 with seed 1978058915
+Result (1->win; 0->lose): Player0:0, Player0-Score:28.0, timesteps:2000
+34 with seed 1460675764
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+35 with seed 1110289046
+Result (1->win; 0->lose): Player0:0, Player0-Score:28.0, timesteps:2000
+36 with seed 990376723
+Result (1->win; 0->lose): Player0:1, Player0-Score:32.0, timesteps:1999
+37 with seed 390168027
+Result (1->win; 0->lose): Player0:1, Player0-Score:28.0, timesteps:1993
+38 with seed 346903273
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+39 with seed -721264533
+Result (1->win; 0->lose): Player0:1, Player0-Score:34.0, timesteps:1995
+40 with seed -767155224
+Result (1->win; 0->lose): Player0:1, Player0-Score:30.0, timesteps:1999
+41 with seed -216119180
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+42 with seed -1761209203
+Result (1->win; 0->lose): Player0:0, Player0-Score:28.0, timesteps:2000
+43 with seed 489257441
+Result (1->win; 0->lose): Player0:1, Player0-Score:34.0, timesteps:2000
+44 with seed 670874983
+Result (1->win; 0->lose): Player0:1, Player0-Score:30.0, timesteps:237
+45 with seed 830697792
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+46 with seed 1019076142
+Result (1->win; 0->lose): Player0:1, Player0-Score:32.0, timesteps:1996
+47 with seed 388952591
+Result (1->win; 0->lose): Player0:1, Player0-Score:30.0, timesteps:342
+48 with seed -1750765310
+Result (1->win; 0->lose): Player0:1, Player0-Score:34.0, timesteps:1999
+49 with seed -1483287837
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+50 with seed -406646016
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+51 with seed -1651620817
+Result (1->win; 0->lose): Player0:0, Player0-Score:28.0, timesteps:2000
+52 with seed 912788515
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+53 with seed 1331827466
+Result (1->win; 0->lose): Player0:1, Player0-Score:30.0, timesteps:1997
+54 with seed -2113247949
+Result (1->win; 0->lose): Player0:1, Player0-Score:34.0, timesteps:1994
+55 with seed -1328805646
+Result (1->win; 0->lose): Player0:1, Player0-Score:32.0, timesteps:1997
+56 with seed 1625183034
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+57 with seed -1715724939
+Result (1->win; 0->lose): Player0:0, Player0-Score:28.0, timesteps:2000
+58 with seed 792111013
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+59 with seed -261929074
+Result (1->win; 0->lose): Player0:1, Player0-Score:32.0, timesteps:1995
+60 with seed -675187678
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+61 with seed -1361845892
+Result (1->win; 0->lose): Player0:1, Player0-Score:34.0, timesteps:1998
+62 with seed 2017018897
+Result (1->win; 0->lose): Player0:0, Player0-Score:34.0, timesteps:2000
+63 with seed -235114731
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+64 with seed 28305375
+Result (1->win; 0->lose): Player0:1, Player0-Score:34.0, timesteps:1995
+65 with seed 399344935
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+66 with seed 683184052
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+67 with seed -903582721
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+68 with seed 357810166
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+69 with seed 1699594811
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+70 with seed -733576990
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+71 with seed -1837030199
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+72 with seed -404271631
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+73 with seed -475618173
+Result (1->win; 0->lose): Player0:1, Player0-Score:34.0, timesteps:2000
+74 with seed 538367922
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+75 with seed 71920642
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+76 with seed 1059240482
+Result (1->win; 0->lose): Player0:0, Player0-Score:28.0, timesteps:2000
+77 with seed 431854604
+Result (1->win; 0->lose): Player0:0, Player0-Score:28.0, timesteps:2000
+78 with seed -356325821
+Result (1->win; 0->lose): Player0:1, Player0-Score:30.0, timesteps:1998
+79 with seed 1981494924
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+80 with seed -1019038708
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+81 with seed 1522760443
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+82 with seed 936923612
+Result (1->win; 0->lose): Player0:1, Player0-Score:32.0, timesteps:1859
+83 with seed -1061138357
+Result (1->win; 0->lose): Player0:0, Player0-Score:26.0, timesteps:2000
+84 with seed -223571047
+Result (1->win; 0->lose): Player0:0, Player0-Score:28.0, timesteps:2000
+85 with seed -1084242470
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+86 with seed 1092138280
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+87 with seed 2011743438
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+88 with seed 532591772
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+89 with seed -1648654030
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+90 with seed 1409246812
+Result (1->win; 0->lose): Player0:1, Player0-Score:32.0, timesteps:1995
+91 with seed -1660478402
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+92 with seed -1130471012
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+93 with seed -377678044
+Result (1->win; 0->lose): Player0:0, Player0-Score:28.0, timesteps:2000
+94 with seed 1335080408
+Result (1->win; 0->lose): Player0:1, Player0-Score:30.0, timesteps:2000
+95 with seed 695889383
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+96 with seed -967020481
+Result (1->win; 0->lose): Player0:1, Player0-Score:30.0, timesteps:1997
+97 with seed 293829277
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+98 with seed -1748624545
+Result (1->win; 0->lose): Player0:0, Player0-Score:32.0, timesteps:2000
+99 with seed -1562944260
+Result (1->win; 0->lose): Player0:1, Player0-Score:32.0, timesteps:1999
+Game ticks
+StatisticalSummaryValues:
+n: 100
+min: 164.0
+max: 2000.0
+mean: 1927.3400000000001
+std dev: 347.1089317563731
+variance: 120484.61050505048
+sum: 192734.0
+
+Win
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 1.0
+mean: 0.3199999999999999
+std dev: 0.4688261722621506
+variance: 0.21979797979797974
+sum: 32.0
+
+Score
+StatisticalSummaryValues:
+n: 100
+min: 26.0
+max: 34.0
+mean: 30.78000000000001
+std dev: 1.9046991331648122
+variance: 3.627878787878787
+sum: 3078.0
+
+Tick last score change
+StatisticalSummaryValues:
+n: 100
+min: 92.0
+max: 2000.0
+mean: 1113.5599999999997
+std dev: 747.3797098577605
+variance: 558576.4307070704
+sum: 111356.0
+
+Tick last positive score change
+StatisticalSummaryValues:
+n: 100
+min: 92.0
+max: 2000.0
+mean: 1113.5599999999997
+std dev: 747.3797098577605
+variance: 558576.4307070704
+sum: 111356.0
+
+Exploration
+StatisticalSummaryValues:
+n: 100
+min: 138.0
+max: 215.0
+mean: 213.29000000000005
+std dev: 9.937476256245054
+variance: 98.7534343434342
+sum: 21329.0
+
+Exploration percentage
+StatisticalSummaryValues:
+n: 100
+min: 0.641860465116279
+max: 1.0
+mean: 0.9920465116279068
+std dev: 0.04622081979648864
+variance: 0.002136364182659476
+sum: 99.2046511627907
+
+Exploration heatmap average
+Tick last new exploration
+StatisticalSummaryValues:
+n: 100
+min: 162.0
+max: 912.0
+mean: 523.54
+std dev: 117.83196561719627
+variance: 13884.372121212124
+sum: 52354.0
+
+Sprites discovered
+StatisticalSummaryValues:
+n: 100
+min: 3.0
+max: 3.0
+mean: 3.0
+std dev: 0.0
+variance: 0.0
+sum: 300.0
+
+Tick last discovery
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Unique interactions
+StatisticalSummaryValues:
+n: 100
+min: 2.0
+max: 2.0
+mean: 2.0
+std dev: 0.0
+variance: 0.0
+sum: 200.0
+
+Curiosity interactions
+StatisticalSummaryValues:
+n: 100
+min: 28.0
+max: 109.0
+mean: 104.27999999999997
+std dev: 14.815416486098716
+variance: 219.49656565656562
+sum: 10428.0
+
+Tick last curiosity
+StatisticalSummaryValues:
+n: 100
+min: 162.0
+max: 1986.0
+mean: 1050.4100000000005
+std dev: 389.3428053797966
+variance: 151587.82010101015
+sum: 105041.0
+
+Total interactions
+StatisticalSummaryValues:
+n: 100
+min: 28.0
+max: 498.0
+mean: 315.49999999999994
+std dev: 73.58023175453108
+variance: 5414.050505050505
+sum: 31550.0
+
+Total collisions
+StatisticalSummaryValues:
+n: 100
+min: 28.0
+max: 498.0
+mean: 315.49999999999994
+std dev: 73.58023175453108
+variance: 5414.050505050505
+sum: 31550.0
+
+Tick last new collision
+StatisticalSummaryValues:
+n: 100
+min: 2.0
+max: 12.0
+mean: 4.539999999999997
+std dev: 2.544234917048996
+variance: 6.473131313131313
+sum: 454.0
+
+Total hits
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last new hit
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Total kills
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last kill
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Total items collected
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last collection
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Automated gameplay of lvl 1finished
+Running automated gameplay of lvl 2...
+
+0 with seed 73852052
+Result (1->win; 0->lose): Player0:1, Player0-Score:52.0, timesteps:2000
+1 with seed -433035915
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:2000
+2 with seed 1898337475
+Result (1->win; 0->lose): Player0:1, Player0-Score:42.0, timesteps:1998
+3 with seed 277566855
+Result (1->win; 0->lose): Player0:0, Player0-Score:56.0, timesteps:748
+4 with seed -1756462829
+Result (1->win; 0->lose): Player0:0, Player0-Score:52.0, timesteps:1243
+5 with seed 1656607126
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:1473
+6 with seed -953100637
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:771
+7 with seed -230981700
+Result (1->win; 0->lose): Player0:0, Player0-Score:56.0, timesteps:1789
+8 with seed -46174905
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+9 with seed -937456205
+Result (1->win; 0->lose): Player0:1, Player0-Score:52.0, timesteps:1999
+10 with seed 1784433993
+Result (1->win; 0->lose): Player0:1, Player0-Score:36.0, timesteps:1998
+11 with seed -554288345
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:2000
+12 with seed -1979424469
+Result (1->win; 0->lose): Player0:0, Player0-Score:56.0, timesteps:446
+13 with seed -417861079
+Result (1->win; 0->lose): Player0:0, Player0-Score:52.0, timesteps:2000
+14 with seed 1654924858
+Result (1->win; 0->lose): Player0:1, Player0-Score:56.0, timesteps:1998
+15 with seed -1380722454
+Result (1->win; 0->lose): Player0:1, Player0-Score:52.0, timesteps:2000
+16 with seed 1936095692
+Result (1->win; 0->lose): Player0:1, Player0-Score:54.0, timesteps:1997
+17 with seed 68305280
+Result (1->win; 0->lose): Player0:0, Player0-Score:52.0, timesteps:2000
+18 with seed -1250466403
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:2000
+19 with seed 1277308841
+Result (1->win; 0->lose): Player0:0, Player0-Score:58.0, timesteps:2000
+20 with seed 1984568541
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:2000
+21 with seed 647994933
+Result (1->win; 0->lose): Player0:0, Player0-Score:60.0, timesteps:2000
+22 with seed -1573299029
+Result (1->win; 0->lose): Player0:0, Player0-Score:46.0, timesteps:2000
+23 with seed 542827691
+Result (1->win; 0->lose): Player0:0, Player0-Score:52.0, timesteps:1468
+24 with seed 1176867721
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:2000
+25 with seed -495046269
+Result (1->win; 0->lose): Player0:0, Player0-Score:24.0, timesteps:126
+26 with seed -177242547
+Result (1->win; 0->lose): Player0:0, Player0-Score:58.0, timesteps:1904
+27 with seed 276345511
+Result (1->win; 0->lose): Player0:1, Player0-Score:56.0, timesteps:2000
+28 with seed 1342628836
+Result (1->win; 0->lose): Player0:0, Player0-Score:44.0, timesteps:2000
+29 with seed -88755882
+Result (1->win; 0->lose): Player0:1, Player0-Score:52.0, timesteps:1995
+30 with seed 1355845143
+Result (1->win; 0->lose): Player0:0, Player0-Score:52.0, timesteps:2000
+31 with seed 256838635
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:894
+32 with seed 32444093
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:1715
+33 with seed 957202741
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:2000
+34 with seed -261616522
+Result (1->win; 0->lose): Player0:1, Player0-Score:54.0, timesteps:1998
+35 with seed 1987938699
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+36 with seed 1340084365
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:2000
+37 with seed -389961155
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:1485
+38 with seed -188014459
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:2000
+39 with seed -1908692651
+Result (1->win; 0->lose): Player0:0, Player0-Score:44.0, timesteps:2000
+40 with seed 1433215444
+Result (1->win; 0->lose): Player0:0, Player0-Score:52.0, timesteps:2000
+41 with seed 774859543
+Result (1->win; 0->lose): Player0:1, Player0-Score:56.0, timesteps:1996
+42 with seed -2020244005
+Result (1->win; 0->lose): Player0:1, Player0-Score:52.0, timesteps:1996
+43 with seed 1645314101
+Result (1->win; 0->lose): Player0:0, Player0-Score:52.0, timesteps:2000
+44 with seed 1037549540
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:2000
+45 with seed -406470052
+Result (1->win; 0->lose): Player0:1, Player0-Score:52.0, timesteps:1995
+46 with seed -973809804
+Result (1->win; 0->lose): Player0:0, Player0-Score:38.0, timesteps:1031
+47 with seed -187040858
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:2000
+48 with seed -1956932638
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:2000
+49 with seed -69554550
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:2000
+50 with seed 917131222
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:1216
+51 with seed 857543784
+Result (1->win; 0->lose): Player0:1, Player0-Score:52.0, timesteps:1996
+52 with seed 281947035
+Result (1->win; 0->lose): Player0:1, Player0-Score:52.0, timesteps:1995
+53 with seed -143089081
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:864
+54 with seed -1406303128
+Result (1->win; 0->lose): Player0:0, Player0-Score:56.0, timesteps:2000
+55 with seed -1735292387
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:2000
+56 with seed 1150527142
+Result (1->win; 0->lose): Player0:0, Player0-Score:56.0, timesteps:2000
+57 with seed 1359099777
+Result (1->win; 0->lose): Player0:1, Player0-Score:60.0, timesteps:1997
+58 with seed -807013202
+Result (1->win; 0->lose): Player0:1, Player0-Score:54.0, timesteps:1997
+59 with seed -2078479954
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:1951
+60 with seed -1707159780
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:2000
+61 with seed -781259040
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:2000
+62 with seed 1892396443
+Result (1->win; 0->lose): Player0:0, Player0-Score:56.0, timesteps:1745
+63 with seed 2035657646
+Result (1->win; 0->lose): Player0:0, Player0-Score:56.0, timesteps:2000
+64 with seed 1670498907
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:2000
+65 with seed 1306030205
+Result (1->win; 0->lose): Player0:1, Player0-Score:56.0, timesteps:1999
+66 with seed -1332048154
+Result (1->win; 0->lose): Player0:1, Player0-Score:48.0, timesteps:1994
+67 with seed -614450553
+Result (1->win; 0->lose): Player0:0, Player0-Score:58.0, timesteps:2000
+68 with seed 1633549751
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:2000
+69 with seed 1181892375
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:1191
+70 with seed -142467636
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:2000
+71 with seed 198602626
+Result (1->win; 0->lose): Player0:0, Player0-Score:56.0, timesteps:1087
+72 with seed 1010631818
+Result (1->win; 0->lose): Player0:0, Player0-Score:30.0, timesteps:2000
+73 with seed 489845606
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:282
+74 with seed 1837611814
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:409
+75 with seed -120253417
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:2000
+76 with seed -1665289732
+Result (1->win; 0->lose): Player0:0, Player0-Score:56.0, timesteps:657
+77 with seed 807918914
+Result (1->win; 0->lose): Player0:1, Player0-Score:54.0, timesteps:1997
+78 with seed -361785655
+Result (1->win; 0->lose): Player0:0, Player0-Score:52.0, timesteps:2000
+79 with seed -973877811
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:1110
+80 with seed -934853162
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:325
+81 with seed 1772807074
+Result (1->win; 0->lose): Player0:0, Player0-Score:52.0, timesteps:845
+82 with seed -496151605
+Result (1->win; 0->lose): Player0:0, Player0-Score:52.0, timesteps:2000
+83 with seed 1421474104
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:773
+84 with seed 1575614098
+Result (1->win; 0->lose): Player0:0, Player0-Score:58.0, timesteps:2000
+85 with seed -125372177
+Result (1->win; 0->lose): Player0:0, Player0-Score:56.0, timesteps:1958
+86 with seed -1610321754
+Result (1->win; 0->lose): Player0:0, Player0-Score:46.0, timesteps:2000
+87 with seed -614750332
+Result (1->win; 0->lose): Player0:1, Player0-Score:52.0, timesteps:2000
+88 with seed 730602505
+Result (1->win; 0->lose): Player0:1, Player0-Score:56.0, timesteps:1998
+89 with seed -1553892768
+Result (1->win; 0->lose): Player0:1, Player0-Score:52.0, timesteps:2000
+90 with seed 1050135050
+Result (1->win; 0->lose): Player0:1, Player0-Score:44.0, timesteps:1999
+91 with seed 58560345
+Result (1->win; 0->lose): Player0:0, Player0-Score:52.0, timesteps:1942
+92 with seed 2122433790
+Result (1->win; 0->lose): Player0:0, Player0-Score:40.0, timesteps:2000
+93 with seed -1929831076
+Result (1->win; 0->lose): Player0:1, Player0-Score:52.0, timesteps:1998
+94 with seed -383971588
+Result (1->win; 0->lose): Player0:0, Player0-Score:48.0, timesteps:2000
+95 with seed 629171543
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:2000
+96 with seed -100369714
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:2000
+97 with seed 2081613042
+Result (1->win; 0->lose): Player0:0, Player0-Score:50.0, timesteps:2000
+98 with seed 621081955
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:2000
+99 with seed 1739515509
+Result (1->win; 0->lose): Player0:0, Player0-Score:54.0, timesteps:2000
+Game ticks
+StatisticalSummaryValues:
+n: 100
+min: 126.0
+max: 2000.0
+mean: 1753.88
+std dev: 490.6512736386529
+variance: 240738.67232323228
+sum: 175388.0
+
+Win
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 1.0
+mean: 0.25
+std dev: 0.43519413988924455
+variance: 0.18939393939393936
+sum: 25.0
+
+Score
+StatisticalSummaryValues:
+n: 100
+min: 24.0
+max: 60.0
+mean: 51.10000000000001
+std dev: 6.217440442542708
+variance: 38.65656565656567
+sum: 5110.0
+
+Tick last score change
+StatisticalSummaryValues:
+n: 100
+min: 116.0
+max: 2000.0
+mean: 1056.71
+std dev: 723.9302423981096
+variance: 524074.9958585857
+sum: 105671.0
+
+Tick last positive score change
+StatisticalSummaryValues:
+n: 100
+min: 116.0
+max: 2000.0
+mean: 1056.71
+std dev: 723.9302423981096
+variance: 524074.9958585857
+sum: 105671.0
+
+Exploration
+StatisticalSummaryValues:
+n: 100
+min: 103.0
+max: 217.0
+mean: 215.48
+std dev: 11.5971783402061
+variance: 134.4945454545455
+sum: 21548.0
+
+Exploration percentage
+StatisticalSummaryValues:
+n: 100
+min: 0.47465437788018433
+max: 1.0
+mean: 0.9929953917050691
+std dev: 0.05344321815763177
+variance: 0.002856177567044222
+sum: 99.29953917050692
+
+Exploration heatmap average
+Tick last new exploration
+StatisticalSummaryValues:
+n: 100
+min: 126.0
+max: 1052.0
+mean: 503.6599999999999
+std dev: 133.9202400948815
+variance: 17934.630707070708
+sum: 50366.0
+
+Sprites discovered
+StatisticalSummaryValues:
+n: 100
+min: 3.0
+max: 3.0
+mean: 3.0
+std dev: 0.0
+variance: 0.0
+sum: 300.0
+
+Tick last discovery
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Unique interactions
+StatisticalSummaryValues:
+n: 100
+min: 2.0
+max: 2.0
+mean: 2.0
+std dev: 0.0
+variance: 0.0
+sum: 200.0
+
+Curiosity interactions
+StatisticalSummaryValues:
+n: 100
+min: 25.0
+max: 136.0
+mean: 127.64
+std dev: 15.761812950125615
+variance: 248.43474747474755
+sum: 12764.0
+
+Tick last curiosity
+StatisticalSummaryValues:
+n: 100
+min: 123.0
+max: 1963.0
+mean: 1060.9700000000003
+std dev: 415.15399248320796
+variance: 172352.8374747475
+sum: 106097.0
+
+Total interactions
+StatisticalSummaryValues:
+n: 100
+min: 25.0
+max: 502.0
+mean: 312.38
+std dev: 90.68758448540781
+variance: 8224.23797979798
+sum: 31238.0
+
+Total collisions
+StatisticalSummaryValues:
+n: 100
+min: 25.0
+max: 502.0
+mean: 312.38
+std dev: 90.68758448540781
+variance: 8224.23797979798
+sum: 31238.0
+
+Tick last new collision
+StatisticalSummaryValues:
+n: 100
+min: 7.0
+max: 32.0
+mean: 14.910000000000002
+std dev: 5.444105328544152
+variance: 29.63828282828283
+sum: 1491.0
+
+Total hits
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last new hit
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Total kills
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last kill
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Total items collected
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last collection
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Automated gameplay of lvl 2finished
+Running automated gameplay of lvl 3...
+
+0 with seed 232923985
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+1 with seed 66124186
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+2 with seed 314221339
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+3 with seed -30710195
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1998
+4 with seed 1778698816
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:2000
+5 with seed 273663918
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+6 with seed -70002890
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1997
+7 with seed -1442172130
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+8 with seed -593542849
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+9 with seed -1864395494
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+10 with seed -1455755037
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+11 with seed -56579104
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+12 with seed 2081452738
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1996
+13 with seed 874285154
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+14 with seed -586912902
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+15 with seed 1955217746
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1999
+16 with seed -983501329
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+17 with seed 642321999
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+18 with seed -239401422
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1998
+19 with seed 444071517
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+20 with seed -1984614240
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+21 with seed -1226656826
+Result (1->win; 0->lose): Player0:0, Player0-Score:26.0, timesteps:2000
+22 with seed -607180668
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1997
+23 with seed 1200895036
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+24 with seed -504709638
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1998
+25 with seed 1307251232
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+26 with seed -1752433829
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+27 with seed -287749606
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+28 with seed -1543264715
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+29 with seed 996598896
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:901
+30 with seed -1882382990
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1998
+31 with seed 1675004383
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+32 with seed 992670970
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+33 with seed 1637986626
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+34 with seed -189399866
+Result (1->win; 0->lose): Player0:0, Player0-Score:20.0, timesteps:2000
+35 with seed -303838714
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1997
+36 with seed -2049577016
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+37 with seed 1779335785
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+38 with seed 1042805459
+Result (1->win; 0->lose): Player0:0, Player0-Score:26.0, timesteps:2000
+39 with seed 1204715811
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+40 with seed 1754669729
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+41 with seed 1365756814
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1999
+42 with seed 646671655
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1995
+43 with seed 898183935
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+44 with seed 1272381438
+Result (1->win; 0->lose): Player0:0, Player0-Score:20.0, timesteps:2000
+45 with seed -307080207
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:2000
+46 with seed -89497653
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+47 with seed 536965777
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+48 with seed 1472801211
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1996
+49 with seed 1324927905
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+50 with seed 1912983195
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1995
+51 with seed 480543632
+Result (1->win; 0->lose): Player0:0, Player0-Score:20.0, timesteps:2000
+52 with seed -2014298414
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1993
+53 with seed 1218244683
+Result (1->win; 0->lose): Player0:0, Player0-Score:26.0, timesteps:2000
+54 with seed -1520369615
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+55 with seed -2090708285
+Result (1->win; 0->lose): Player0:0, Player0-Score:24.0, timesteps:2000
+56 with seed 406751245
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+57 with seed -1196077076
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+58 with seed -1922577878
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+59 with seed 1819147541
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+60 with seed 461361905
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+61 with seed -1333852352
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+62 with seed -968042445
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+63 with seed 1413564901
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+64 with seed 1645271748
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+65 with seed -237272376
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1995
+66 with seed -1862737098
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1996
+67 with seed -1269664674
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+68 with seed -896048143
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+69 with seed 532372823
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+70 with seed 139501377
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1998
+71 with seed -864123123
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+72 with seed 1169030262
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+73 with seed -1525308111
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+74 with seed -897148692
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1996
+75 with seed -1767020573
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1999
+76 with seed -80048436
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+77 with seed -1815532025
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1995
+78 with seed -187998696
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+79 with seed 99111867
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+80 with seed 1739289350
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:2000
+81 with seed -1303172141
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+82 with seed -115119946
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+83 with seed -138740067
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+84 with seed 128155054
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+85 with seed 2143576604
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1999
+86 with seed -17506116
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+87 with seed -1362229680
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+88 with seed -1795692062
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+89 with seed 1385575129
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+90 with seed 806036154
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1999
+91 with seed -463295951
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:2000
+92 with seed -204617002
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+93 with seed 1912647011
+Result (1->win; 0->lose): Player0:0, Player0-Score:20.0, timesteps:2000
+94 with seed -480666169
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+95 with seed 155157551
+Result (1->win; 0->lose): Player0:0, Player0-Score:20.0, timesteps:2000
+96 with seed -1804810784
+Result (1->win; 0->lose): Player0:1, Player0-Score:24.0, timesteps:1991
+97 with seed -1518228935
+Result (1->win; 0->lose): Player0:0, Player0-Score:20.0, timesteps:2000
+98 with seed 1145907424
+Result (1->win; 0->lose): Player0:1, Player0-Score:22.0, timesteps:1993
+99 with seed -145319895
+Result (1->win; 0->lose): Player0:0, Player0-Score:22.0, timesteps:2000
+Game ticks
+StatisticalSummaryValues:
+n: 100
+min: 901.0
+max: 2000.0
+mean: 1988.1800000000005
+std dev: 109.83112657000457
+variance: 12062.876363636364
+sum: 198818.0
+
+Win
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 1.0
+mean: 0.29
+std dev: 0.4560480215720688
+variance: 0.20797979797979813
+sum: 29.0
+
+Score
+StatisticalSummaryValues:
+n: 100
+min: 20.0
+max: 26.0
+mean: 22.58
+std dev: 1.248676066556863
+variance: 1.5591919191919192
+sum: 2258.0
+
+Tick last score change
+StatisticalSummaryValues:
+n: 100
+min: 69.0
+max: 2000.0
+mean: 1082.9
+std dev: 757.5769121203324
+variance: 573922.7777777779
+sum: 108290.0
+
+Tick last positive score change
+StatisticalSummaryValues:
+n: 100
+min: 69.0
+max: 2000.0
+mean: 1082.9
+std dev: 757.5769121203324
+variance: 573922.7777777779
+sum: 108290.0
+
+Exploration
+StatisticalSummaryValues:
+n: 100
+min: 225.0
+max: 225.0
+mean: 225.0
+std dev: 0.0
+variance: 0.0
+sum: 22500.0
+
+Exploration percentage
+StatisticalSummaryValues:
+n: 100
+min: 1.0
+max: 1.0
+mean: 1.0
+std dev: 0.0
+variance: 0.0
+sum: 100.0
+
+Exploration heatmap average
+Tick last new exploration
+StatisticalSummaryValues:
+n: 100
+min: 359.0
+max: 1009.0
+mean: 543.6
+std dev: 131.5626363095817
+variance: 17308.72727272727
+sum: 54360.0
+
+Sprites discovered
+StatisticalSummaryValues:
+n: 100
+min: 3.0
+max: 3.0
+mean: 3.0
+std dev: 0.0
+variance: 0.0
+sum: 300.0
+
+Tick last discovery
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Unique interactions
+StatisticalSummaryValues:
+n: 100
+min: 2.0
+max: 2.0
+mean: 2.0
+std dev: 0.0
+variance: 0.0
+sum: 200.0
+
+Curiosity interactions
+StatisticalSummaryValues:
+n: 100
+min: 83.0
+max: 88.0
+mean: 85.55999999999996
+std dev: 0.7954415583355352
+variance: 0.6327272727272646
+sum: 8556.0
+
+Tick last curiosity
+StatisticalSummaryValues:
+n: 100
+min: 576.0
+max: 1945.0
+mean: 1026.8400000000004
+std dev: 377.2025879063296
+variance: 142281.7923232323
+sum: 102684.0
+
+Total interactions
+StatisticalSummaryValues:
+n: 100
+min: 160.0
+max: 570.0
+mean: 265.0000000000002
+std dev: 58.036909189608195
+variance: 3368.282828282828
+sum: 26500.0
+
+Total collisions
+StatisticalSummaryValues:
+n: 100
+min: 160.0
+max: 570.0
+mean: 265.0000000000002
+std dev: 58.036909189608195
+variance: 3368.282828282828
+sum: 26500.0
+
+Tick last new collision
+StatisticalSummaryValues:
+n: 100
+min: 6.0
+max: 54.0
+mean: 10.600000000000001
+std dev: 6.289320754704403
+variance: 39.55555555555556
+sum: 1060.0
+
+Total hits
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last new hit
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Total kills
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last kill
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Total items collected
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last collection
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Automated gameplay of lvl 3finished
+Running automated gameplay of lvl 4...
+
+0 with seed 2040686437
+Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:932
+1 with seed 1919474565
+Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:281
+2 with seed -1739511495
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+3 with seed 1255099825
+Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:2000
+4 with seed -527211771
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:974
+5 with seed -120423812
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+6 with seed -1148712325
+Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:1210
+7 with seed 1234892916
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:477
+8 with seed -1476305963
+Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:302
+9 with seed -595074779
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:841
+10 with seed 1722519178
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:640
+11 with seed -900141707
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:180
+12 with seed 451766566
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:1393
+13 with seed -1681426694
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:77
+14 with seed -1657300882
+Result (1->win; 0->lose): Player0:1, Player0-Score:14.0, timesteps:1997
+15 with seed -239395244
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:710
+16 with seed -585220151
+Result (1->win; 0->lose): Player0:1, Player0-Score:18.0, timesteps:943
+17 with seed 551045766
+Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:349
+18 with seed 1479515463
+Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:796
+19 with seed -1059216520
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+20 with seed -836729125
+Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:692
+21 with seed -1031567139
+Result (1->win; 0->lose): Player0:1, Player0-Score:18.0, timesteps:114
+22 with seed 1594822597
+Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:328
+23 with seed -1830549505
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:65
+24 with seed -49010731
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:795
+25 with seed -481791815
+Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:424
+26 with seed 535159878
+Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:740
+27 with seed 848041615
+Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:137
+28 with seed 1858742861
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:319
+29 with seed -1317592194
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:350
+30 with seed 1714381481
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:1991
+31 with seed -1487190899
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+32 with seed -1495427683
+Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:1713
+33 with seed -2129692442
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+34 with seed -1719128285
+Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:1048
+35 with seed 1951918678
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:988
+36 with seed 245604546
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:156
+37 with seed 448945334
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:230
+38 with seed -5353297
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+39 with seed 1153022703
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:178
+40 with seed -991727389
+Result (1->win; 0->lose): Player0:1, Player0-Score:14.0, timesteps:1995
+41 with seed -1175662898
+Result (1->win; 0->lose): Player0:0, Player0-Score:10.0, timesteps:96
+42 with seed 423409226
+Result (1->win; 0->lose): Player0:0, Player0-Score:10.0, timesteps:117
+43 with seed -673707440
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:779
+44 with seed -1579554235
+Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:1812
+45 with seed -623652220
+Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:360
+46 with seed -1740695312
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+47 with seed 1072788355
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+48 with seed 1211633065
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:600
+49 with seed 351602085
+Result (1->win; 0->lose): Player0:1, Player0-Score:14.0, timesteps:287
+50 with seed 160301901
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:157
+51 with seed 1188794925
+Result (1->win; 0->lose): Player0:1, Player0-Score:18.0, timesteps:1996
+52 with seed -144981524
+Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:350
+53 with seed 1582021705
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+54 with seed 1023540040
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:125
+55 with seed -679323865
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:1600
+56 with seed 190661235
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:41
+57 with seed -1946713071
+Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:1345
+58 with seed 801024661
+Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:411
+59 with seed 695693055
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:152
+60 with seed -303367221
+Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:266
+61 with seed -244825413
+Result (1->win; 0->lose): Player0:1, Player0-Score:18.0, timesteps:1768
+62 with seed 781115161
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:1798
+63 with seed -1931493701
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:490
+64 with seed -1771286025
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:37
+65 with seed -388242736
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:322
+66 with seed 1623373530
+Result (1->win; 0->lose): Player0:1, Player0-Score:18.0, timesteps:880
+67 with seed -1705302406
+Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:864
+68 with seed 1628358178
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:1485
+69 with seed -514887840
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:262
+70 with seed 362576032
+Result (1->win; 0->lose): Player0:0, Player0-Score:14.0, timesteps:1653
+71 with seed -727404333
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+72 with seed 1416636899
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:84
+73 with seed -1094830587
+Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:1712
+74 with seed 1519215009
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+75 with seed 1646036287
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:1679
+76 with seed 1035607681
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:821
+77 with seed 1601611938
+Result (1->win; 0->lose): Player0:1, Player0-Score:14.0, timesteps:1995
+78 with seed -1429102818
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:188
+79 with seed -82307958
+Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:598
+80 with seed -575655414
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:479
+81 with seed 1294462617
+Result (1->win; 0->lose): Player0:1, Player0-Score:14.0, timesteps:1995
+82 with seed 1820276576
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:1729
+83 with seed 29325076
+Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:772
+84 with seed 157843235
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+85 with seed 2076114672
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:1096
+86 with seed 1765868231
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:1113
+87 with seed -2032372479
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:1193
+88 with seed -942672689
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:119
+89 with seed 585747864
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+90 with seed -693424912
+Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:586
+91 with seed -2011670596
+Result (1->win; 0->lose): Player0:0, Player0-Score:10.0, timesteps:55
+92 with seed -361379293
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:1326
+93 with seed 1803004422
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+94 with seed -928388534
+Result (1->win; 0->lose): Player0:0, Player0-Score:16.0, timesteps:1978
+95 with seed -519149517
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:1048
+96 with seed 291124110
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:599
+97 with seed -1793305699
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:2000
+98 with seed -298086189
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:306
+99 with seed -1277554611
+Result (1->win; 0->lose): Player0:0, Player0-Score:12.0, timesteps:188
+Game ticks
+StatisticalSummaryValues:
+n: 100
+min: 37.0
+max: 2000.0
+mean: 980.7700000000002
+std dev: 728.6655140832049
+variance: 530953.4314141413
+sum: 98077.0
+
+Win
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 1.0
+mean: 0.10000000000000002
+std dev: 0.30151134457776363
+variance: 0.09090909090909091
+sum: 10.0
+
+Score
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 18.0
+mean: 13.079999999999997
+std dev: 2.33411242404491
+variance: 5.448080808080807
+sum: 1308.0
+
+Tick last score change
+StatisticalSummaryValues:
+n: 100
+min: -1.0
+max: 1997.0
+mean: 366.82
+std dev: 566.3269281033257
+variance: 320726.1894949494
+sum: 36682.0
+
+Tick last positive score change
+StatisticalSummaryValues:
+n: 100
+min: -1.0
+max: 1997.0
+mean: 366.82
+std dev: 566.3269281033257
+variance: 320726.1894949494
+sum: 36682.0
+
+Exploration
+StatisticalSummaryValues:
+n: 100
+min: 34.0
+max: 235.0
+mean: 196.18000000000004
+std dev: 58.102205316375574
+variance: 3375.866262626262
+sum: 19618.0
+
+Exploration percentage
+StatisticalSummaryValues:
+n: 100
+min: 0.14468085106382977
+max: 1.0
+mean: 0.8348085106382981
+std dev: 0.247243426878194
+variance: 0.06112931213447287
+sum: 83.48085106382982
+
+Exploration heatmap average
+Tick last new exploration
+StatisticalSummaryValues:
+n: 100
+min: 37.0
+max: 1691.0
+mean: 537.4200000000001
+std dev: 341.9643545721977
+variance: 116939.61979797976
+sum: 53742.0
+
+Sprites discovered
+StatisticalSummaryValues:
+n: 100
+min: 3.0
+max: 3.0
+mean: 3.0
+std dev: 0.0
+variance: 0.0
+sum: 300.0
+
+Tick last discovery
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Unique interactions
+StatisticalSummaryValues:
+n: 100
+min: 1.0
+max: 2.0
+mean: 1.99
+std dev: 0.10000000000000002
+variance: 0.010000000000000004
+sum: 199.0
+
+Curiosity interactions
+StatisticalSummaryValues:
+n: 100
+min: 1.0
+max: 121.0
+mean: 81.07000000000004
+std dev: 39.88677282589613
+variance: 1590.954646464646
+sum: 8107.0
+
+Tick last curiosity
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 1909.0
+mean: 707.5200000000001
+std dev: 481.539502559502
+variance: 231880.29252525262
+sum: 70752.0
+
+Total interactions
+StatisticalSummaryValues:
+n: 100
+min: 1.0
+max: 787.0
+mean: 222.63000000000002
+std dev: 192.79861555938663
+variance: 37171.30616161616
+sum: 22263.0
+
+Total collisions
+StatisticalSummaryValues:
+n: 100
+min: 1.0
+max: 787.0
+mean: 222.63000000000002
+std dev: 192.79861555938663
+variance: 37171.30616161616
+sum: 22263.0
+
+Tick last new collision
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 138.0
+mean: 31.239999999999995
+std dev: 27.922374359982168
+variance: 779.6589898989896
+sum: 3124.0
+
+Total hits
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last new hit
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Total kills
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last kill
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Total items collected
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last collection
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Automated gameplay of lvl 4finished
+Running automated gameplay of lvl 5...
+
+0 with seed 2015623896
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+1 with seed 935912662
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+2 with seed -691043640
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+3 with seed -1051066418
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+4 with seed -862104581
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+5 with seed 893204549
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+6 with seed -1413540266
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+7 with seed 1768413992
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+8 with seed 1410641379
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+9 with seed 717948227
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+10 with seed 999875026
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+11 with seed 823915842
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+12 with seed 393934934
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+13 with seed 1939555860
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+14 with seed -756983302
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+15 with seed -469571689
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+16 with seed 1229232854
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+17 with seed 986395366
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+18 with seed -1650155169
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+19 with seed 225943295
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+20 with seed 816649958
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+21 with seed 379596028
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+22 with seed 478960049
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+23 with seed -310978935
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+24 with seed 737537040
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+25 with seed 810231214
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+26 with seed 2073003061
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+27 with seed -1198007194
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+28 with seed -733551840
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+29 with seed 455919918
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+30 with seed -1069514674
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+31 with seed -1912714302
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+32 with seed -629131049
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+33 with seed -268581788
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+34 with seed -772709869
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+35 with seed -463694214
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+36 with seed -823699649
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+37 with seed 725148699
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+38 with seed 1131373913
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+39 with seed -325263263
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+40 with seed 360560267
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+41 with seed -1786704052
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+42 with seed -925550205
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+43 with seed 2125761190
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+44 with seed -963805213
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+45 with seed 1182356121
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+46 with seed 2086245796
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+47 with seed 444071947
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+48 with seed 184596612
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+49 with seed -656039907
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+50 with seed 1192433662
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+51 with seed 2033721107
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+52 with seed 561143470
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+53 with seed -393596880
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+54 with seed -166687418
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+55 with seed 810165857
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+56 with seed 776998900
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+57 with seed -650428980
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+58 with seed 1951108294
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+59 with seed 631733774
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+60 with seed -677526412
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+61 with seed 393565379
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+62 with seed -1781000258
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+63 with seed 101535753
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+64 with seed -881716196
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+65 with seed 1064682315
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+66 with seed 2076712044
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+67 with seed -1103484771
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+68 with seed 927998677
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+69 with seed -169401391
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+70 with seed -119937145
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+71 with seed -1315106775
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+72 with seed -466043580
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+73 with seed 1978118671
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+74 with seed -856301499
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+75 with seed -1795327419
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+76 with seed -864206851
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+77 with seed -424085880
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+78 with seed -1654478259
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+79 with seed -564355863
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+80 with seed -969312996
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+81 with seed -547553029
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+82 with seed -14579777
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+83 with seed 29172220
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+84 with seed 1026375731
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+85 with seed 1195031367
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+86 with seed -1173031402
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+87 with seed -1029010957
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+88 with seed 408443255
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+89 with seed -1283682988
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+90 with seed 1020543271
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+91 with seed -608293899
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+92 with seed -359127063
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+93 with seed 1053814784
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+94 with seed -424263047
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+95 with seed -972622423
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+96 with seed 1720510906
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+97 with seed 1878554064
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+98 with seed -381353416
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+99 with seed 497816876
+Result (1->win; 0->lose): Player0:0, Player0-Score:0.0, timesteps:2000
+Game ticks
+StatisticalSummaryValues:
+n: 100
+min: 2000.0
+max: 2000.0
+mean: 2000.0
+std dev: 0.0
+variance: 0.0
+sum: 200000.0
+
+Win
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Score
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last score change
+StatisticalSummaryValues:
+n: 100
+min: -1.0
+max: 0.0
+mean: -0.99
+std dev: 0.1
+variance: 0.01
+sum: -99.0
+
+Tick last positive score change
+StatisticalSummaryValues:
+n: 100
+min: -1.0
+max: 0.0
+mean: -0.99
+std dev: 0.1
+variance: 0.01
+sum: -99.0
+
+Exploration
+StatisticalSummaryValues:
+n: 100
+min: 206.0
+max: 206.0
+mean: 206.0
+std dev: 0.0
+variance: 0.0
+sum: 20600.0
+
+Exploration percentage
+StatisticalSummaryValues:
+n: 100
+min: 1.0
+max: 1.0
+mean: 1.0
+std dev: 0.0
+variance: 0.0
+sum: 100.0
+
+Exploration heatmap average
+Tick last new exploration
+StatisticalSummaryValues:
+n: 100
+min: 370.0
+max: 723.0
+mean: 498.79
+std dev: 71.82629087323153
+variance: 5159.016060606062
+sum: 49879.0
+
+Sprites discovered
+StatisticalSummaryValues:
+n: 100
+min: 3.0
+max: 3.0
+mean: 3.0
+std dev: 0.0
+variance: 0.0
+sum: 300.0
+
+Tick last discovery
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Unique interactions
+StatisticalSummaryValues:
+n: 100
+min: 1.0
+max: 1.0
+mean: 1.0
+std dev: 0.0
+variance: 0.0
+sum: 100.0
+
+Curiosity interactions
+StatisticalSummaryValues:
+n: 100
+min: 111.0
+max: 111.0
+mean: 111.0
+std dev: 0.0
+variance: 0.0
+sum: 11100.0
+
+Tick last curiosity
+StatisticalSummaryValues:
+n: 100
+min: 527.0
+max: 934.0
+mean: 652.9400000000002
+std dev: 86.32213803626225
+variance: 7451.511515151513
+sum: 65294.0
+
+Total interactions
+StatisticalSummaryValues:
+n: 100
+min: 463.0
+max: 685.0
+mean: 570.1499999999995
+std dev: 48.72710547611884
+variance: 2374.33080808081
+sum: 57015.0
+
+Total collisions
+StatisticalSummaryValues:
+n: 100
+min: 463.0
+max: 685.0
+mean: 570.1499999999995
+std dev: 48.72710547611884
+variance: 2374.33080808081
+sum: 57015.0
+
+Tick last new collision
+StatisticalSummaryValues:
+n: 100
+min: 2.0
+max: 5.0
+mean: 2.5300000000000007
+std dev: 0.5938234271450248
+variance: 0.35262626262626257
+sum: 253.0
+
+Total hits
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last new hit
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Total kills
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last kill
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Total items collected
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Tick last collection
+StatisticalSummaryValues:
+n: 100
+min: 0.0
+max: 0.0
+mean: 0.0
+std dev: 0.0
+variance: 0.0
+sum: 0.0
+
+Automated gameplay of lvl 5finished

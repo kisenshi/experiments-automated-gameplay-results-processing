@@ -1,0 +1,4 @@
+mkdir 20210810_experiments_generalisation_D5/configD5E6
+cp AutomatedGameplayGeneralisation.jar 20210810_experiments_generalisation_D5/configD5E6/AutomatedGameplayGeneralisation-configD5E6.jar
+cp -r examples 20210810_experiments_generalisation_D5/configD5E6
+Running java -jar AutomatedGameplayGeneralisation-configD5E6.jar ../config/configD5E6.json >> log_configD5E6.txt

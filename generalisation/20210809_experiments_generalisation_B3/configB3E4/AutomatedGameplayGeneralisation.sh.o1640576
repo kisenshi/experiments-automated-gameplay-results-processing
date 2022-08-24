@@ -1,0 +1,4 @@
+mkdir 20210809_experiments_generalisation/configB3E4
+cp AutomatedGameplayGeneralisation.jar 20210809_experiments_generalisation/configB3E4/AutomatedGameplayGeneralisation-configB3E4.jar
+cp -r examples 20210809_experiments_generalisation/configB3E4
+Running java -jar AutomatedGameplayGeneralisation-configB3E4.jar ../config/configB3E4.json >> log_configB3E4.txt

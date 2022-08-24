@@ -1,0 +1,4 @@
+mkdir 20210809_experiments_generalisation_Z5/configZ5E3
+cp AutomatedGameplayGeneralisation.jar 20210809_experiments_generalisation_Z5/configZ5E3/AutomatedGameplayGeneralisation-configZ5E3.jar
+cp -r examples 20210809_experiments_generalisation_Z5/configZ5E3
+Running java -jar AutomatedGameplayGeneralisation-configZ5E3.jar ../config/configZ5E3.json >> log_configZ5E3.txt

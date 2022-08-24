@@ -1,0 +1,22 @@
+{
+	"game": "ZELDA",
+	"level": 1,
+	"behaviours": [
+		"WINNER",
+		"EXPLORER",
+		"CURIOUS",
+		"KILLER",
+		"COLLECTOR"
+	],
+	"weights": [
+		0.96,
+		0.54,
+		0.61,
+		0,
+		0
+	],
+	"experimentId": "30Z15j_10_6",
+    "visuals": false,
+	"nGameRuns": 100,
+	"nLevels": 6
+}

@@ -1,0 +1,18 @@
+{
+	"game": "BUTTERFLIES",
+	"level": 4,
+	"behaviours": [
+		"WINNER",
+		"EXPLORER",
+		"CURIOUS"
+	],
+	"weights": [
+		0.04,
+		0,
+		0.9
+	],
+	"experimentId": "30B03d_7_6",
+    "visuals": false,
+	"nGameRuns": 100,
+	"nLevels": 1
+}
