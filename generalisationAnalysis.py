@@ -30,17 +30,20 @@ GRAPHS_PATH = "results_portability_broken/"
 
 # GAMES
 B3 = "B3"
+Z5 = "Z5"
 
 # DIMENSIONS
-SCORE = "Score"
-CURIOSITY = "Curiosity"
-COLLISIONS = "Collisions"
-WIN_RATE = "Victories"
-EOG = "EoG"
+SCORE       = "Score"
+CURIOSITY   = "Curiosity"
+COLLISIONS  = "Collisions"
+WIN_RATE    = "Victories"
+EOG         = "EoG"
 EXPLORATION = "Exploration"
+KILLS       = "Kills"
 
-# Butterflies
-LEVELS_THESIS_IDS = [
+# BUTTERFLIES
+
+LEVELS_THESIS_IDS_BUTTERFLIES = [
     "7.2a",
     "7.19a",
     "7.19b",
@@ -60,6 +63,33 @@ B3_E5_EXPLORER      = B3_RESULTS+"E5/B3_E5_explorer.txt"
 B3_E6_CURIOUS       = B3_RESULTS+"E6/B3_E6_curious.txt"
 B3_E6_EXPLORER      = B3_RESULTS+"E6/B3_E6_explorer.txt"
 
+# ZELDA
+
+LEVELS_THESIS_IDS_ZELDA = [
+    "7.2b",
+    "7.20a",
+    "7.20b",
+    "7.20c",
+    "7.20d",
+    "`Broken`"
+]
+
+Z5_RESULTS = "generalisation/results_Z5/"
+
+Z5_E1_RECORDBREAKER = Z5_RESULTS+"E1/Z5_E1_record_breaker.txt"
+Z5_E2_WINNER        = Z5_RESULTS+"E2/Z5_E2_winner.txt"
+Z5_E2_GAME          = Z5_RESULTS+"E2/Z5_E2_game.txt"
+Z5_E3_EXPLORER      = Z5_RESULTS+"E3/Z5_E3_explorer.txt"
+Z5_E5_EXPLORER      = Z5_RESULTS+"E5/Z5_E5_explorer.txt"
+Z5_E6_EXPLORER      = Z5_RESULTS+"E6/Z5_E6_explorer.txt"
+Z5_E4_KILLER        = Z5_RESULTS+"E4/Z5_E4_killer.txt"
+Z5_E5_KILLER        = Z5_RESULTS+"E5/Z5_E5_killer.txt"
+Z5_E6_KILLER        = Z5_RESULTS+"E6/Z5_E6_killer.txt"
+
+# PLOTS
+
+LEVELS_THESIS_IDS = LEVELS_THESIS_IDS_ZELDA
+
 class PlotInfo:
     def __init__(self, title, img_title, yaxis_range=None):
         self.title = title
@@ -72,7 +102,7 @@ def printList(data):
         info += str(data[x]) + ", "
     return info
 
-def getFileResultsData(file_name):
+def getFileResultsData(file_name, n_cols=3):
 	print("Reading "+file_name)
 
 	files = glob.glob(file_name)
@@ -80,7 +110,7 @@ def getFileResultsData(file_name):
 		print("Missing file: ", file_name)
 		return None
 
-	return pylab.loadtxt(files[0], comments='*', delimiter=' ', usecols=range(3))
+	return pylab.loadtxt(files[0], comments='*', delimiter=' ', usecols=range(n_cols))
 
 def getFileResultsDataInOneRow(file_name):
 	print("Reading "+file_name+" All data is in a row")
@@ -400,6 +430,13 @@ def loadExploration(all_data, row_start, row_end):
     exploration_rate = [i*100 for i in exploration]
     return exploration_rate
 
+def loadKills(all_data, row_start, row_end):
+    # From: Killer
+    # nTotalKills lastKillTick
+    # We are interested in nTotalKills : 0
+    kills = all_data[:,0][row_start:row_end]
+    return kills
+
 def getTitle(game, dimension):
     return game+" Resulting "+ dimension + " per level"
 
@@ -418,11 +455,13 @@ def generateHistograms(game, dimension, data, loadDataMethod, agents_info, image
     HistogramsPortabilityAll(data, loadDataMethod, dimension, agents_info, plot_info)
     HistogramsPortabilityAll(data, loadDataMethod, dimension, agents_info, plot_info_broken, True)
 
+#################################################################################################
 # Butterflies
+#################################################################################################
 game = B3
 
 # Score: E1, E2
-if(True):
+if(False):
     dimension = SCORE
     b3_score_e1 = getFileResultsData(B3_E1_RECORDBREAKER)
     b3_score_e2 = getFileResultsData(B3_E2_RECORDBREAKER)
@@ -438,7 +477,7 @@ if(True):
 # PlotsPortabilityAll(b3_score, loadScores, SCORE, b3_score_agents, plot_info_broken, True)
 
 # Curiosity: E3, E6
-if(True):
+if(False):
     dimension = CURIOSITY
     b3_curious_e3 = getFileResultsData(B3_E3_CURIOUS)
     b3_curious_e6 = getFileResultsData(B3_E6_CURIOUS)
@@ -448,7 +487,7 @@ if(True):
     generatePlots(game, dimension, data, loadCuriosity, agents, image_title)
 
 # Collisions: E3
-if(True):
+if(False):
     dimension = COLLISIONS
     b3_curious_e3 = getFileResultsData(B3_E3_CURIOUS)
     data = [b3_curious_e3]
@@ -458,7 +497,7 @@ if(True):
 
 
 # Win rate: E4
-if(True):
+if(False):
     dimension = WIN_RATE
     b3_winner_e4 = getFileResultsDataInOneRow(B3_E4_WINNER)
     data = [b3_winner_e4]
@@ -469,7 +508,7 @@ if(True):
 # Win rate: E1, E2, E3, E4, E5, E6
 
 # EoG: E4
-if(True):
+if(False):
     dimension = EOG
     b3_game_e4 = getFileResultsDataInOneRow(B3_E4_GAME)
     data = [b3_game_e4]
@@ -478,7 +517,7 @@ if(True):
     generatePlots(game, dimension, data, loadEoG, agents, image_title, [0,2000])
 
 # Exploration: E5, E6
-if(True):
+if(False):
     dimension = EXPLORATION
     b3_explorer_e5 = getFileResultsData(B3_E5_EXPLORER)
     b3_explorer_e6 = getFileResultsData(B3_E6_EXPLORER)
@@ -486,3 +525,57 @@ if(True):
     agents = ["E5", "E6"]
     image_title = game + "_" + dimension + "_E5E6"
     generatePlots(game, dimension, data, loadExploration, agents, image_title, [0,100])
+
+#################################################################################################
+# Zelda
+#################################################################################################
+game = Z5
+
+# Score: E1
+if(True):
+    dimension = SCORE
+    z5_score_e1 = getFileResultsData(Z5_E1_RECORDBREAKER)
+    data = [z5_score_e1]
+    agents = ["E1"]
+    image_title = game + "_" + dimension + "_E1"
+    generatePlots(game, dimension, data, loadScores, agents, image_title)
+
+# Victories: E2
+if(True):
+    dimension = WIN_RATE
+    z5_winner_e2 = getFileResultsDataInOneRow(Z5_E2_WINNER)
+    data = [z5_winner_e2]
+    agents = ["E2"]
+    image_title = game + "_" + dimension + "_E2"
+    generateHistograms(game, dimension, data, loadWins, agents, image_title, [0,100])
+
+# EoG: E2
+if(True):
+    dimension = EOG
+    z5_game_e2 = getFileResultsDataInOneRow(Z5_E2_GAME)
+    data = [z5_game_e2]
+    agents = ["E2"]
+    image_title = game + "_" + dimension + "_E2"
+    generatePlots(game, dimension, data, loadEoG, agents, image_title, [0,2000])
+
+# Exploration: E3, E5, E6
+if(True):
+    dimension = EXPLORATION
+    z5_explorer_e3 = getFileResultsData(Z5_E3_EXPLORER)
+    z5_explorer_e5 = getFileResultsData(Z5_E5_EXPLORER)
+    z5_explorer_e6 = getFileResultsData(Z5_E6_EXPLORER)
+    data = [z5_explorer_e3, z5_explorer_e5, z5_explorer_e6]
+    agents = ["E3", "E5", "E6"]
+    image_title = game + "_" + dimension + "_E3E5E6"
+    generatePlots(game, dimension, data, loadExploration, agents, image_title, [0,100])
+
+# Kills: E4, E5, E6
+if(True):
+    dimension = KILLS
+    z5_killer_e4 = getFileResultsData(Z5_E4_KILLER, 2)
+    z5_killer_e5 = getFileResultsData(Z5_E5_KILLER, 2)
+    z5_killer_e6 = getFileResultsData(Z5_E6_KILLER, 2)
+    data = [z5_killer_e4, z5_killer_e5, z5_killer_e6]
+    agents = ["E4", "E5", "E6"]
+    image_title = game + "_" + dimension + "_E4E5E6"
+    generatePlots(game, dimension, data, loadKills, agents, image_title)
