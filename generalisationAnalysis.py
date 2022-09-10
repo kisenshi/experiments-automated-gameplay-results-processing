@@ -32,17 +32,19 @@ GRAPHS_PATH = "results_portability_broken/"
 B3 = "B3"
 Z5 = "Z5"
 D5 = "D5"
+S4 = "S4"
 
 # DIMENSIONS
-SCORE       = "Score"
-CURIOSITY   = "Curiosity"
-COLLISIONS  = "Collisions"
-WIN_RATE    = "Victories"
-EOG         = "EoG"
-EXPLORATION = "Exploration"
-KILLS       = "Kills"
-ITEMS       = "Items"
-HITS        = "Hits"
+SCORE           = "Score"
+CURIOSITY       = "Curiosity"
+COLLISIONS      = "Collisions"
+WIN_RATE        = "Victories"
+EOG             = "EoG"
+KILLS           = "Kills"
+EXPLORATION     = "Exploration"
+ITEMS           = "Items"
+HITS            = "Hits"
+INTERACTIONS    = "Interactions"
 
 # BUTTERFLIES
 
@@ -133,9 +135,35 @@ D5_E5_EXPLORER      = D5_RESULTS+"E5/D5_E5_explorer.txt"
 D5_E6_EXPLORER      = D5_RESULTS+"E6/D5_E6_explorer.txt"
 D5_E6_RECORDBREAKER = D5_RESULTS+"E6/D5_E6_record_breaker.txt"
 
+# SHERIFF
+
+LEVELS_THESIS_IDS_SHERIFF = [
+    "7.2d",
+    "7.43a",
+    "7.43b",
+    "7.43c",
+    "7.43d",
+    "`Broken`"
+]
+
+S4_RESULTS = "generalisation/results_S4/"
+
+S4_E1_WINNER        = S4_RESULTS+"E1/S4_E1_winner.txt"
+S4_E1_KILLER        = S4_RESULTS+"E1/S4_E1_killer.txt"
+S4_E1_GAME          = S4_RESULTS+"E1/S4_E1_game.txt"
+S4_E2_EXPLORER      = S4_RESULTS+"E2/S4_E2_explorer.txt"
+S4_E2_KILLER        = S4_RESULTS+"E2/S4_E2_killer.txt"
+S4_E3_EXPLORER      = S4_RESULTS+"E3/S4_E3_explorer.txt"
+S4_E3_KILLER        = S4_RESULTS+"E3/S4_E3_killer.txt"
+S4_E4_WINNER        = S4_RESULTS+"E4/S4_E4_winner.txt"
+S4_E4_GAME          = S4_RESULTS+"E4/S4_E4_game.txt"
+S4_E5_CURIOUS       = S4_RESULTS+"E5/S4_E5_curious.txt"
+S4_E5_KILLER        = S4_RESULTS+"E5/S4_E5_killer.txt"
+S4_E6_CURIOUS       = S4_RESULTS+"E6/S4_E6_curious.txt"
+
 # PLOTS
 
-LEVELS_THESIS_IDS = LEVELS_THESIS_IDS_DIGDUG
+LEVELS_THESIS_IDS = LEVELS_THESIS_IDS_SHERIFF
 
 class PlotInfo:
     def __init__(self, title, img_title, yaxis_range=None):
@@ -464,6 +492,15 @@ def loadHits(all_data, row_start, row_end):
     hits = all_data[:,3][row_start:row_end]
     return hits
 
+def loadInteractions(all_data, row_start, row_end):
+    # From: Curious stats
+    # nUniqueSpriteInteractions nCuriosityInteractions nTotalCollisions nTotalHits lastNewCollisionTick lastNewHitTick lastCuriosityTick
+    # We are interested in: nInteractions = nTotalCollisions + nTotalHits
+    collisions = loadCollisions(all_data, row_start, row_end)
+    hits = loadHits(all_data, row_start, row_end)
+    interactions = [collisions[i]+hits[i] for i in range(len(collisions))]
+    return interactions
+
 def loadWins(all_data, column_start, column_end):
     # From: Winner
     # Victory? Victory? Victory? ...
@@ -706,7 +743,7 @@ if(False):
 game = D5
 
 # Kills: E1, E2, E3
-if(True):
+if(False):
     dimension = KILLS
     d5_killer_e1 = getFileResultsData(D5_E1_KILLER, 2)
     d5_killer_e2 = getFileResultsData(D5_E2_KILLER, 2)
@@ -717,7 +754,7 @@ if(True):
     generatePlots(game, dimension, data, loadKills, agents, image_title)
 
 # Items: E1, E2, E3
-if(True):
+if(False):
     dimension = ITEMS
     d5_collector_e1 = getFileResultsData(D5_E1_COLLECTOR, 2)
     d5_collector_e2 = getFileResultsData(D5_E2_COLLECTOR, 2)
@@ -728,7 +765,7 @@ if(True):
     generatePlots(game, dimension, data, loadItems, agents, image_title)
 
 # Exploration: E4, E5, E6
-if(True):
+if(False):
     dimension = EXPLORATION
     d5_explorer_e4 = getFileResultsData(D5_E4_EXPLORER)
     d5_explorer_e5 = getFileResultsData(D5_E5_EXPLORER)
@@ -739,7 +776,7 @@ if(True):
     generatePlots(game, dimension, data, loadExploration, agents, image_title, [0,100])
 
 # Curiosity: E4
-if(True):
+if(False):
     dimension = CURIOSITY
     d5_curious_e4 = getFileResultsData(D5_E4_CURIOUS, 7)
     data = [d5_curious_e4]
@@ -748,7 +785,7 @@ if(True):
     generatePlots(game, dimension, data, loadCuriosity, agents, image_title)
 
 # Hits: E4
-if(True):
+if(False):
     dimension = HITS
     d5_curious_e4 = getFileResultsData(D5_E4_CURIOUS, 7)
     data = [d5_curious_e4]
@@ -757,10 +794,85 @@ if(True):
     generatePlots(game, dimension, data, loadHits, agents, image_title)
 
 # Score: E6
-if(True):
+if(False):
     dimension = SCORE
     d5_score_e6 = getFileResultsData(D5_E6_RECORDBREAKER)
     data = [d5_score_e6]
     agents = ["E6"]
     image_title = game + "_" + dimension + "_E6"
     generatePlots(game, dimension, data, loadScores, agents, image_title)
+
+#################################################################################################
+# Sheriff
+#################################################################################################
+game = S4
+
+# Victories: E1, E4
+if(True):
+    dimension = WIN_RATE
+    s4_winner_e1 = getFileResultsDataInOneRow(S4_E1_WINNER)
+    s4_winner_e4 = getFileResultsDataInOneRow(S4_E4_WINNER)
+    data = [s4_winner_e1, s4_winner_e4]
+    agents = ["E1", "E4"]
+    image_title = game + "_" + dimension + "_E1E4"
+    generateHistograms(game, dimension, data, loadWins, agents, image_title, [0,100])
+
+# Kills: E1, E2, E3, E5
+if(True):
+    dimension = KILLS
+    s4_killer_e1 = getFileResultsData(S4_E1_KILLER, 2)
+    s4_killer_e2 = getFileResultsData(S4_E2_KILLER, 2)
+    s4_killer_e3 = getFileResultsData(S4_E3_KILLER, 2)
+    s4_killer_e5 = getFileResultsData(S4_E5_KILLER, 2)
+    data = [s4_killer_e1, s4_killer_e2, s4_killer_e3, s4_killer_e5]
+    agents = ["E1", "E2", "E3", "E5"]
+    image_title = game + "_" + dimension + "_E1E2E3E5"
+    generatePlots(game, dimension, data, loadKills, agents, image_title)
+
+# EoG: E1, E4
+if(True):
+    dimension = EOG
+    s4_game_e1 = getFileResultsDataInOneRow(S4_E1_GAME)
+    s4_game_e4 = getFileResultsDataInOneRow(S4_E4_GAME)
+    data = [s4_game_e1, s4_game_e4]
+    agents = ["E1", "E4"]
+    image_title = game + "_" + dimension + "_E1E4"
+    generatePlots(game, dimension, data, loadEoG, agents, image_title, [0,1000])
+
+# Exploration: E2, E3
+if(True):
+    dimension = EXPLORATION
+    s4_explorer_e2 = getFileResultsData(S4_E2_EXPLORER)
+    s4_explorer_e3 = getFileResultsData(S4_E3_EXPLORER)
+    data = [s4_explorer_e2, s4_explorer_e3]
+    agents = ["E2", "E3"]
+    image_title = game + "_" + dimension + "_E2E3"
+    generatePlots(game, dimension, data, loadExploration, agents, image_title, [0,100])
+
+# Interactions: E5, E6
+if(True):
+    dimension = INTERACTIONS
+    s4_curious_e5 = getFileResultsData(S4_E5_CURIOUS, 7)
+    s4_curious_e6 = getFileResultsData(S4_E6_CURIOUS, 7)
+    data = [s4_curious_e5, s4_curious_e6]
+    agents = ["E5", "E6"]
+    image_title = game + "_" + dimension + "_E5E6"
+    generatePlots(game, dimension, data, loadInteractions, agents, image_title)
+
+# Hits: E5
+if(True):
+    dimension = HITS
+    s4_curious_e5 = getFileResultsData(S4_E5_CURIOUS, 7)
+    data = [s4_curious_e5]
+    agents = ["E5"]
+    image_title = game + "_" + dimension + "_E5"
+    generatePlots(game, dimension, data, loadHits, agents, image_title)
+
+# Curiosity: E6
+if(True):
+    dimension = CURIOSITY
+    s4_curious_e6 = getFileResultsData(S4_E6_CURIOUS, 7)
+    data = [s4_curious_e6]
+    agents = ["E6"]
+    image_title = game + "_" + dimension + "_E6"
+    generatePlots(game, dimension, data, loadCuriosity, agents, image_title)
