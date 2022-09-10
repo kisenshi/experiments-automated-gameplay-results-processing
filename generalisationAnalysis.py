@@ -94,6 +94,16 @@ Z5_E6_EXPLORER      = Z5_RESULTS+"E6/Z5_E6_explorer.txt"
 Z5_E4_KILLER        = Z5_RESULTS+"E4/Z5_E4_killer.txt"
 Z5_E5_KILLER        = Z5_RESULTS+"E5/Z5_E5_killer.txt"
 Z5_E6_KILLER        = Z5_RESULTS+"E6/Z5_E6_killer.txt"
+Z5_E1_WINNER        = Z5_RESULTS+"E1/Z5_E1_winner.txt"
+Z5_E3_WINNER        = Z5_RESULTS+"E3/Z5_E3_winner.txt"
+Z5_E4_WINNER        = Z5_RESULTS+"E4/Z5_E4_winner.txt"
+Z5_E5_WINNER        = Z5_RESULTS+"E5/Z5_E5_winner.txt"
+Z5_E6_WINNER        = Z5_RESULTS+"E6/Z5_E6_winner.txt"
+Z5_E1_GAME          = Z5_RESULTS+"E1/Z5_E1_game.txt"
+Z5_E3_GAME          = Z5_RESULTS+"E3/Z5_E3_game.txt"
+Z5_E4_GAME          = Z5_RESULTS+"E4/Z5_E4_game.txt"
+Z5_E5_GAME          = Z5_RESULTS+"E5/Z5_E5_game.txt"
+Z5_E6_GAME          = Z5_RESULTS+"E6/Z5_E6_game.txt"
 
 # PLOTS
 
@@ -571,7 +581,7 @@ if(False):
 game = Z5
 
 # Score: E1
-if(True):
+if(False):
     dimension = SCORE
     z5_score_e1 = getFileResultsData(Z5_E1_RECORDBREAKER)
     data = [z5_score_e1]
@@ -580,7 +590,7 @@ if(True):
     generatePlots(game, dimension, data, loadScores, agents, image_title)
 
 # Victories: E2
-if(True):
+if(False):
     dimension = WIN_RATE
     z5_winner_e2 = getFileResultsDataInOneRow(Z5_E2_WINNER)
     data = [z5_winner_e2]
@@ -589,7 +599,7 @@ if(True):
     generateHistograms(game, dimension, data, loadWins, agents, image_title, [0,100])
 
 # EoG: E2
-if(True):
+if(False):
     dimension = EOG
     z5_game_e2 = getFileResultsDataInOneRow(Z5_E2_GAME)
     data = [z5_game_e2]
@@ -598,7 +608,7 @@ if(True):
     generatePlots(game, dimension, data, loadEoG, agents, image_title, [0,2000])
 
 # Exploration: E3, E5, E6
-if(True):
+if(False):
     dimension = EXPLORATION
     z5_explorer_e3 = getFileResultsData(Z5_E3_EXPLORER)
     z5_explorer_e5 = getFileResultsData(Z5_E5_EXPLORER)
@@ -609,7 +619,7 @@ if(True):
     generatePlots(game, dimension, data, loadExploration, agents, image_title, [0,100])
 
 # Kills: E4, E5, E6
-if(True):
+if(False):
     dimension = KILLS
     z5_killer_e4 = getFileResultsData(Z5_E4_KILLER, 2)
     z5_killer_e5 = getFileResultsData(Z5_E5_KILLER, 2)
@@ -618,3 +628,32 @@ if(True):
     agents = ["E4", "E5", "E6"]
     image_title = game + "_" + dimension + "_E4E5E6"
     generatePlots(game, dimension, data, loadKills, agents, image_title)
+
+# All agents comparison: Victories and EoG.
+# Victories: E2
+if(True):
+    dimension = WIN_RATE
+    z5_winner_e1 = getFileResultsDataInOneRow(Z5_E1_WINNER)
+    z5_winner_e2 = getFileResultsDataInOneRow(Z5_E2_WINNER)
+    z5_winner_e3 = getFileResultsDataInOneRow(Z5_E3_WINNER)
+    z5_winner_e4 = getFileResultsDataInOneRow(Z5_E4_WINNER)
+    z5_winner_e5 = getFileResultsDataInOneRow(Z5_E5_WINNER)
+    z5_winner_e6 = getFileResultsDataInOneRow(Z5_E6_WINNER)
+    data = [z5_winner_e1, z5_winner_e2, z5_winner_e3, z5_winner_e4, z5_winner_e5, z5_winner_e6]
+    agents = ["E1", "E2", "E3", "E4", "E5", "E6"]
+    image_title = game + "_" + dimension + "_E1E2E3E4E5E6"
+    generateHistograms(game, dimension, data, loadWins, agents, image_title, [0,100])
+
+# EoG: E2
+if(True):
+    dimension = EOG
+    z5_game_e1 = getFileResultsDataInOneRow(Z5_E1_GAME)
+    z5_game_e2 = getFileResultsDataInOneRow(Z5_E2_GAME)
+    z5_game_e3 = getFileResultsDataInOneRow(Z5_E3_GAME)
+    z5_game_e4 = getFileResultsDataInOneRow(Z5_E4_GAME)
+    z5_game_e5 = getFileResultsDataInOneRow(Z5_E5_GAME)
+    z5_game_e6 = getFileResultsDataInOneRow(Z5_E6_GAME)
+    data = [z5_game_e1, z5_game_e2, z5_game_e3, z5_game_e4, z5_game_e5, z5_game_e6]
+    agents = ["E1", "E2", "E3", "E4", "E5", "E6"]
+    image_title = game + "_" + dimension + "_E1E2E3E4E5E6"
+    generatePlots(game, dimension, data, loadEoG, agents, image_title, [0,2000])
