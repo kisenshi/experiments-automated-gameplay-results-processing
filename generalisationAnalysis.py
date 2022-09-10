@@ -76,10 +76,10 @@ B3_E4_EXPLORER      = B3_RESULTS+"E4/B3_E4_explorer.txt"
 
 LEVELS_THESIS_IDS_ZELDA = [
     "7.2b",
-    "7.20a",
-    "7.20b",
-    "7.20c",
-    "7.20d",
+    "7.28a",
+    "7.28b",
+    "7.28c",
+    "7.28d",
     "`Broken`"
 ]
 
@@ -97,7 +97,7 @@ Z5_E6_KILLER        = Z5_RESULTS+"E6/Z5_E6_killer.txt"
 
 # PLOTS
 
-LEVELS_THESIS_IDS = LEVELS_THESIS_IDS_BUTTERFLIES
+LEVELS_THESIS_IDS = LEVELS_THESIS_IDS_ZELDA
 
 class PlotInfo:
     def __init__(self, title, img_title, yaxis_range=None):
@@ -552,7 +552,7 @@ if(False):
     generatePlots(game, dimension, data, loadExploration, agents, image_title, [0,100])
 
 # Exploration: E1, E2, E3, E4, E5, E6
-if(True):
+if(False):
     dimension = EXPLORATION
     b3_explorer_e1 = getFileResultsData(B3_E1_EXPLORER)
     b3_explorer_e2 = getFileResultsData(B3_E2_EXPLORER)
@@ -571,7 +571,7 @@ if(True):
 game = Z5
 
 # Score: E1
-if(False):
+if(True):
     dimension = SCORE
     z5_score_e1 = getFileResultsData(Z5_E1_RECORDBREAKER)
     data = [z5_score_e1]
@@ -580,7 +580,7 @@ if(False):
     generatePlots(game, dimension, data, loadScores, agents, image_title)
 
 # Victories: E2
-if(False):
+if(True):
     dimension = WIN_RATE
     z5_winner_e2 = getFileResultsDataInOneRow(Z5_E2_WINNER)
     data = [z5_winner_e2]
@@ -589,7 +589,7 @@ if(False):
     generateHistograms(game, dimension, data, loadWins, agents, image_title, [0,100])
 
 # EoG: E2
-if(False):
+if(True):
     dimension = EOG
     z5_game_e2 = getFileResultsDataInOneRow(Z5_E2_GAME)
     data = [z5_game_e2]
@@ -598,7 +598,7 @@ if(False):
     generatePlots(game, dimension, data, loadEoG, agents, image_title, [0,2000])
 
 # Exploration: E3, E5, E6
-if(False):
+if(True):
     dimension = EXPLORATION
     z5_explorer_e3 = getFileResultsData(Z5_E3_EXPLORER)
     z5_explorer_e5 = getFileResultsData(Z5_E5_EXPLORER)
@@ -609,7 +609,7 @@ if(False):
     generatePlots(game, dimension, data, loadExploration, agents, image_title, [0,100])
 
 # Kills: E4, E5, E6
-if(False):
+if(True):
     dimension = KILLS
     z5_killer_e4 = getFileResultsData(Z5_E4_KILLER, 2)
     z5_killer_e5 = getFileResultsData(Z5_E5_KILLER, 2)
