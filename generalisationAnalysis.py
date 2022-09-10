@@ -62,6 +62,11 @@ B3_E4_WINNER        = B3_RESULTS+"E4/B3_E4_winner.txt"
 B3_E5_EXPLORER      = B3_RESULTS+"E5/B3_E5_explorer.txt"
 B3_E6_CURIOUS       = B3_RESULTS+"E6/B3_E6_curious.txt"
 B3_E6_EXPLORER      = B3_RESULTS+"E6/B3_E6_explorer.txt"
+B3_E1_WINNER        = B3_RESULTS+"E1/B3_E1_winner.txt"
+B3_E2_WINNER        = B3_RESULTS+"E2/B3_E2_winner.txt"
+B3_E3_WINNER        = B3_RESULTS+"E3/B3_E3_winner.txt"
+B3_E5_WINNER        = B3_RESULTS+"E5/B3_E5_winner.txt"
+B3_E6_WINNER        = B3_RESULTS+"E6/B3_E6_winner.txt"
 
 # ZELDA
 
@@ -88,7 +93,7 @@ Z5_E6_KILLER        = Z5_RESULTS+"E6/Z5_E6_killer.txt"
 
 # PLOTS
 
-LEVELS_THESIS_IDS = LEVELS_THESIS_IDS_ZELDA
+LEVELS_THESIS_IDS = LEVELS_THESIS_IDS_BUTTERFLIES
 
 class PlotInfo:
     def __init__(self, title, img_title, yaxis_range=None):
@@ -325,9 +330,9 @@ def HistogramsPortabilityAll(agents_data, loadDimensionData, dimension_name, age
 
     # For portability, we do not include the result of the broken level.
     # Populate level information for each agent.
-    levels_info = []
-    broken_level_info = []
     n_agents = len(agents_data)
+    levels_info = [[] for i in range(n_agents)]
+    broken_levels_info = [[] for i in range(n_agents)]
     agent_levels_data = [[] for i in range(n_agents)]
     agent_broken_levels_data = [[] for i in range(n_agents)]
 
@@ -342,15 +347,15 @@ def HistogramsPortabilityAll(agents_data, loadDimensionData, dimension_name, age
             # Not all data is populated in this case
             level_data_size = len(graph_data)
             level_info = [LEVELS_THESIS_IDS[lvl] for i in range(level_data_size)]
-            levels_info.extend(level_info)
+            levels_info[i].extend(level_info)
 
     # Create plots for each agent so they are grouped.
     for i in range(0, n_agents):
         print("Trace "+ str(i) +" y" + printList(agent_levels_data[i]))
-        print("Trace "+ str(i) +" x" + printList(levels_info))
+        print("Trace "+ str(i) +" x" + printList(levels_info[i]))
         fig.add_trace(go.Histogram(
             y=agent_levels_data[i],
-            x=levels_info,
+            x=levels_info[i],
             name=agent_names[i]
         ))
 
@@ -363,14 +368,14 @@ def HistogramsPortabilityAll(agents_data, loadDimensionData, dimension_name, age
             graph_data = loadDimensionData(data, first_result, last_result)
             agent_broken_levels_data[i].extend(graph_data)
             level_data_size = len(graph_data)
-            broken_level_info = [LEVELS_THESIS_IDS[lvl] for i in range(level_data_size)]
+            broken_levels_info[i] = [LEVELS_THESIS_IDS[lvl] for i in range(level_data_size)]
 
         for i in range(0, n_agents):
             print("`Broken` Trace "+ str(i) +" y: " + printList(agent_broken_levels_data[i]))
-            print("`Broken` Trace "+ str(i) +" x: " + printList(broken_level_info))
+            print("`Broken` Trace "+ str(i) +" x: " + printList(broken_levels_info[i]))
             fig.add_trace(go.Histogram(
                 y=agent_broken_levels_data[i],
-                x=broken_level_info,
+                x=broken_levels_info[i],
                 name=agent_names[i]
             ))
 
@@ -506,6 +511,18 @@ if(False):
     generateHistograms(game, dimension, data, loadWins, agents, image_title, [0,100])
 
 # Win rate: E1, E2, E3, E4, E5, E6
+if(True):
+    dimension = WIN_RATE
+    b3_winner_e1 = getFileResultsDataInOneRow(B3_E1_WINNER)
+    b3_winner_e2 = getFileResultsDataInOneRow(B3_E2_WINNER)
+    b3_winner_e3 = getFileResultsDataInOneRow(B3_E3_WINNER)
+    b3_winner_e4 = getFileResultsDataInOneRow(B3_E4_WINNER)
+    b3_winner_e5 = getFileResultsDataInOneRow(B3_E5_WINNER)
+    b3_winner_e6 = getFileResultsDataInOneRow(B3_E6_WINNER)
+    data = [b3_winner_e1, b3_winner_e2, b3_winner_e3, b3_winner_e4, b3_winner_e5, b3_winner_e6]
+    agents = ["E1","E2","E3","E4","E5","E6"]
+    image_title = game + "_" + dimension + "_E1E2E3E4E5E6"
+    generateHistograms(game, dimension, data, loadWins, agents, image_title, [0,100])
 
 # EoG: E4
 if(False):
@@ -532,7 +549,7 @@ if(False):
 game = Z5
 
 # Score: E1
-if(True):
+if(False):
     dimension = SCORE
     z5_score_e1 = getFileResultsData(Z5_E1_RECORDBREAKER)
     data = [z5_score_e1]
@@ -541,7 +558,7 @@ if(True):
     generatePlots(game, dimension, data, loadScores, agents, image_title)
 
 # Victories: E2
-if(True):
+if(False):
     dimension = WIN_RATE
     z5_winner_e2 = getFileResultsDataInOneRow(Z5_E2_WINNER)
     data = [z5_winner_e2]
@@ -550,7 +567,7 @@ if(True):
     generateHistograms(game, dimension, data, loadWins, agents, image_title, [0,100])
 
 # EoG: E2
-if(True):
+if(False):
     dimension = EOG
     z5_game_e2 = getFileResultsDataInOneRow(Z5_E2_GAME)
     data = [z5_game_e2]
@@ -559,7 +576,7 @@ if(True):
     generatePlots(game, dimension, data, loadEoG, agents, image_title, [0,2000])
 
 # Exploration: E3, E5, E6
-if(True):
+if(False):
     dimension = EXPLORATION
     z5_explorer_e3 = getFileResultsData(Z5_E3_EXPLORER)
     z5_explorer_e5 = getFileResultsData(Z5_E5_EXPLORER)
@@ -570,7 +587,7 @@ if(True):
     generatePlots(game, dimension, data, loadExploration, agents, image_title, [0,100])
 
 # Kills: E4, E5, E6
-if(True):
+if(False):
     dimension = KILLS
     z5_killer_e4 = getFileResultsData(Z5_E4_KILLER, 2)
     z5_killer_e5 = getFileResultsData(Z5_E5_KILLER, 2)
