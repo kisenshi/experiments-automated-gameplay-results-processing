@@ -67,6 +67,10 @@ B3_E2_WINNER        = B3_RESULTS+"E2/B3_E2_winner.txt"
 B3_E3_WINNER        = B3_RESULTS+"E3/B3_E3_winner.txt"
 B3_E5_WINNER        = B3_RESULTS+"E5/B3_E5_winner.txt"
 B3_E6_WINNER        = B3_RESULTS+"E6/B3_E6_winner.txt"
+B3_E1_EXPLORER      = B3_RESULTS+"E1/B3_E1_explorer.txt"
+B3_E2_EXPLORER      = B3_RESULTS+"E2/B3_E2_explorer.txt"
+B3_E3_EXPLORER      = B3_RESULTS+"E3/B3_E3_explorer.txt"
+B3_E4_EXPLORER      = B3_RESULTS+"E4/B3_E4_explorer.txt"
 
 # ZELDA
 
@@ -470,7 +474,7 @@ def generateHistograms(game, dimension, data, loadDataMethod, agents_info, image
 game = B3
 
 # Score: E1, E2
-if(True):
+if(False):
     dimension = SCORE
     b3_score_e1 = getFileResultsData(B3_E1_RECORDBREAKER)
     b3_score_e2 = getFileResultsData(B3_E2_RECORDBREAKER)
@@ -486,7 +490,7 @@ if(True):
 # PlotsPortabilityAll(b3_score, loadScores, SCORE, b3_score_agents, plot_info_broken, True)
 
 # Curiosity: E3, E6
-if(True):
+if(False):
     dimension = CURIOSITY
     b3_curious_e3 = getFileResultsData(B3_E3_CURIOUS)
     b3_curious_e6 = getFileResultsData(B3_E6_CURIOUS)
@@ -496,7 +500,7 @@ if(True):
     generatePlots(game, dimension, data, loadCuriosity, agents, image_title)
 
 # Collisions: E3
-if(True):
+if(False):
     dimension = COLLISIONS
     b3_curious_e3 = getFileResultsData(B3_E3_CURIOUS)
     data = [b3_curious_e3]
@@ -506,7 +510,7 @@ if(True):
 
 
 # Win rate: E4
-if(True):
+if(False):
     dimension = WIN_RATE
     b3_winner_e4 = getFileResultsDataInOneRow(B3_E4_WINNER)
     data = [b3_winner_e4]
@@ -515,7 +519,7 @@ if(True):
     generateHistograms(game, dimension, data, loadWins, agents, image_title, [0,100])
 
 # Win rate: E1, E2, E3, E4, E5, E6
-if(True):
+if(False):
     dimension = WIN_RATE
     b3_winner_e1 = getFileResultsDataInOneRow(B3_E1_WINNER)
     b3_winner_e2 = getFileResultsDataInOneRow(B3_E2_WINNER)
@@ -529,7 +533,7 @@ if(True):
     generateHistograms(game, dimension, data, loadWins, agents, image_title, [0,100])
 
 # EoG: E4
-if(True):
+if(False):
     dimension = EOG
     b3_game_e4 = getFileResultsDataInOneRow(B3_E4_GAME)
     data = [b3_game_e4]
@@ -538,13 +542,27 @@ if(True):
     generatePlots(game, dimension, data, loadEoG, agents, image_title, [0,2000])
 
 # Exploration: E5, E6
-if(True):
+if(False):
     dimension = EXPLORATION
     b3_explorer_e5 = getFileResultsData(B3_E5_EXPLORER)
     b3_explorer_e6 = getFileResultsData(B3_E6_EXPLORER)
     data = [b3_explorer_e5, b3_explorer_e6]
     agents = ["E5", "E6"]
     image_title = game + "_" + dimension + "_E5E6"
+    generatePlots(game, dimension, data, loadExploration, agents, image_title, [0,100])
+
+# Exploration: E1, E2, E3, E4, E5, E6
+if(True):
+    dimension = EXPLORATION
+    b3_explorer_e1 = getFileResultsData(B3_E1_EXPLORER)
+    b3_explorer_e2 = getFileResultsData(B3_E2_EXPLORER)
+    b3_explorer_e3 = getFileResultsData(B3_E3_EXPLORER)
+    b3_explorer_e4 = getFileResultsData(B3_E4_EXPLORER)
+    b3_explorer_e5 = getFileResultsData(B3_E5_EXPLORER)
+    b3_explorer_e6 = getFileResultsData(B3_E6_EXPLORER)
+    data = [b3_explorer_e1, b3_explorer_e2, b3_explorer_e3, b3_explorer_e4, b3_explorer_e5, b3_explorer_e6]
+    agents = ["E1", "E2", "E3", "E4", "E5", "E6"]
+    image_title = game + "_" + dimension + "_E1E2E3E4E5E6"
     generatePlots(game, dimension, data, loadExploration, agents, image_title, [0,100])
 
 #################################################################################################
