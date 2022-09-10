@@ -316,12 +316,14 @@ def PlotsPortabilityAll(agents_data, loadDimensionData, dimension_name, agent_na
     fig.update_layout(
         title=plot_info.title,
         yaxis_title=dimension_name,
+        xaxis_title="Level",
         showlegend=True,
         yaxis_range=plot_info.yaxis_range,
         boxmode='group'
     )
 
     fig.show()
+    pio.full_figure_for_development(fig, warn=False) # Remove weird error message in image.
     pio.write_image(fig, GRAPHS_PATH+plot_info.img_title+".pdf", format='pdf')
 
 # HistogramsPortabilityAll generates an histogram instead of a whisker plot.
@@ -382,12 +384,14 @@ def HistogramsPortabilityAll(agents_data, loadDimensionData, dimension_name, age
     fig.update_layout(
         title=plot_info.title,
         yaxis_title=dimension_name,
+        xaxis_title="Level",
         showlegend=True,
         yaxis_range=plot_info.yaxis_range,
         boxmode='group'
     )
 
     fig.show()
+    pio.full_figure_for_development(fig, warn=False) # Remove weird error message in image.
     pio.write_image(fig, GRAPHS_PATH+plot_info.img_title+".pdf", format='pdf')
 
 def loadScores(all_data, row_start, row_end):
@@ -466,7 +470,7 @@ def generateHistograms(game, dimension, data, loadDataMethod, agents_info, image
 game = B3
 
 # Score: E1, E2
-if(False):
+if(True):
     dimension = SCORE
     b3_score_e1 = getFileResultsData(B3_E1_RECORDBREAKER)
     b3_score_e2 = getFileResultsData(B3_E2_RECORDBREAKER)
@@ -482,7 +486,7 @@ if(False):
 # PlotsPortabilityAll(b3_score, loadScores, SCORE, b3_score_agents, plot_info_broken, True)
 
 # Curiosity: E3, E6
-if(False):
+if(True):
     dimension = CURIOSITY
     b3_curious_e3 = getFileResultsData(B3_E3_CURIOUS)
     b3_curious_e6 = getFileResultsData(B3_E6_CURIOUS)
@@ -492,7 +496,7 @@ if(False):
     generatePlots(game, dimension, data, loadCuriosity, agents, image_title)
 
 # Collisions: E3
-if(False):
+if(True):
     dimension = COLLISIONS
     b3_curious_e3 = getFileResultsData(B3_E3_CURIOUS)
     data = [b3_curious_e3]
@@ -502,7 +506,7 @@ if(False):
 
 
 # Win rate: E4
-if(False):
+if(True):
     dimension = WIN_RATE
     b3_winner_e4 = getFileResultsDataInOneRow(B3_E4_WINNER)
     data = [b3_winner_e4]
@@ -525,7 +529,7 @@ if(True):
     generateHistograms(game, dimension, data, loadWins, agents, image_title, [0,100])
 
 # EoG: E4
-if(False):
+if(True):
     dimension = EOG
     b3_game_e4 = getFileResultsDataInOneRow(B3_E4_GAME)
     data = [b3_game_e4]
@@ -534,7 +538,7 @@ if(False):
     generatePlots(game, dimension, data, loadEoG, agents, image_title, [0,2000])
 
 # Exploration: E5, E6
-if(False):
+if(True):
     dimension = EXPLORATION
     b3_explorer_e5 = getFileResultsData(B3_E5_EXPLORER)
     b3_explorer_e6 = getFileResultsData(B3_E6_EXPLORER)
