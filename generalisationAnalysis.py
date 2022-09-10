@@ -31,6 +31,7 @@ GRAPHS_PATH = "results_portability_broken/"
 # GAMES
 B3 = "B3"
 Z5 = "Z5"
+D5 = "D5"
 
 # DIMENSIONS
 SCORE       = "Score"
@@ -40,6 +41,8 @@ WIN_RATE    = "Victories"
 EOG         = "EoG"
 EXPLORATION = "Exploration"
 KILLS       = "Kills"
+ITEMS       = "Items"
+HITS        = "Hits"
 
 # BUTTERFLIES
 
@@ -105,9 +108,34 @@ Z5_E4_GAME          = Z5_RESULTS+"E4/Z5_E4_game.txt"
 Z5_E5_GAME          = Z5_RESULTS+"E5/Z5_E5_game.txt"
 Z5_E6_GAME          = Z5_RESULTS+"E6/Z5_E6_game.txt"
 
+# DIGDUG
+
+LEVELS_THESIS_IDS_DIGDUG = [
+    "7.2c",
+    "7.36a",
+    "7.36b",
+    "7.36c",
+    "7.36d",
+    "`Broken`"
+]
+
+D5_RESULTS = "generalisation/results_D5/"
+
+D5_E1_KILLER        = D5_RESULTS+"E1/D5_E1_killer.txt"
+D5_E1_COLLECTOR     = D5_RESULTS+"E1/D5_E1_collector.txt"
+D5_E2_KILLER        = D5_RESULTS+"E2/D5_E2_killer.txt"
+D5_E2_COLLECTOR     = D5_RESULTS+"E2/D5_E2_collector.txt"
+D5_E3_KILLER        = D5_RESULTS+"E3/D5_E3_killer.txt"
+D5_E3_COLLECTOR     = D5_RESULTS+"E3/D5_E3_collector.txt"
+D5_E4_EXPLORER      = D5_RESULTS+"E4/D5_E4_explorer.txt"
+D5_E4_CURIOUS       = D5_RESULTS+"E4/D5_E4_curious.txt"
+D5_E5_EXPLORER      = D5_RESULTS+"E5/D5_E5_explorer.txt"
+D5_E6_EXPLORER      = D5_RESULTS+"E6/D5_E6_explorer.txt"
+D5_E6_RECORDBREAKER = D5_RESULTS+"E6/D5_E6_record_breaker.txt"
+
 # PLOTS
 
-LEVELS_THESIS_IDS = LEVELS_THESIS_IDS_ZELDA
+LEVELS_THESIS_IDS = LEVELS_THESIS_IDS_DIGDUG
 
 class PlotInfo:
     def __init__(self, title, img_title, yaxis_range=None):
@@ -429,6 +457,13 @@ def loadCollisions(all_data, row_start, row_end):
     collisions = all_data[:,2][row_start:row_end]
     return collisions
 
+def loadHits(all_data, row_start, row_end):
+    # From: Curious stats
+    # nUniqueSpriteInteractions nCuriosityInteractions nTotalCollisions nTotalHits lastNewCollisionTick lastNewHitTick lastCuriosityTick
+    # We are interested in nTotalHits: 3
+    hits = all_data[:,3][row_start:row_end]
+    return hits
+
 def loadWins(all_data, column_start, column_end):
     # From: Winner
     # Victory? Victory? Victory? ...
@@ -459,6 +494,13 @@ def loadKills(all_data, row_start, row_end):
     # We are interested in nTotalKills : 0
     kills = all_data[:,0][row_start:row_end]
     return kills
+
+def loadItems(all_data, row_start, row_end):
+    # From: Collector
+    # nTotalItemsCollected lastCollectionTick
+    # We are interested in nTotalItemsCollected: 0
+    items = all_data[:,0][row_start:row_end]
+    return items
 
 def getTitle(game, dimension):
     return game+" Resulting "+ dimension + " per level"
@@ -630,8 +672,8 @@ if(False):
     generatePlots(game, dimension, data, loadKills, agents, image_title)
 
 # All agents comparison: Victories and EoG.
-# Victories: E2
-if(True):
+# Victories
+if(False):
     dimension = WIN_RATE
     z5_winner_e1 = getFileResultsDataInOneRow(Z5_E1_WINNER)
     z5_winner_e2 = getFileResultsDataInOneRow(Z5_E2_WINNER)
@@ -644,8 +686,8 @@ if(True):
     image_title = game + "_" + dimension + "_E1E2E3E4E5E6"
     generateHistograms(game, dimension, data, loadWins, agents, image_title, [0,100])
 
-# EoG: E2
-if(True):
+# EoG
+if(False):
     dimension = EOG
     z5_game_e1 = getFileResultsDataInOneRow(Z5_E1_GAME)
     z5_game_e2 = getFileResultsDataInOneRow(Z5_E2_GAME)
@@ -657,3 +699,68 @@ if(True):
     agents = ["E1", "E2", "E3", "E4", "E5", "E6"]
     image_title = game + "_" + dimension + "_E1E2E3E4E5E6"
     generatePlots(game, dimension, data, loadEoG, agents, image_title, [0,2000])
+
+#################################################################################################
+# Digdug
+#################################################################################################
+game = D5
+
+# Kills: E1, E2, E3
+if(True):
+    dimension = KILLS
+    d5_killer_e1 = getFileResultsData(D5_E1_KILLER, 2)
+    d5_killer_e2 = getFileResultsData(D5_E2_KILLER, 2)
+    d5_killer_e3 = getFileResultsData(D5_E3_KILLER, 2)
+    data = [d5_killer_e1, d5_killer_e2, d5_killer_e3]
+    agents = ["E1", "E2", "E3"]
+    image_title = game + "_" + dimension + "_E1E2E3"
+    generatePlots(game, dimension, data, loadKills, agents, image_title)
+
+# Items: E1, E2, E3
+if(True):
+    dimension = ITEMS
+    d5_collector_e1 = getFileResultsData(D5_E1_COLLECTOR, 2)
+    d5_collector_e2 = getFileResultsData(D5_E2_COLLECTOR, 2)
+    d5_collector_e3 = getFileResultsData(D5_E3_COLLECTOR, 2)
+    data = [d5_collector_e1, d5_collector_e2, d5_collector_e3]
+    agents = ["E1", "E2", "E3"]
+    image_title = game + "_" + dimension + "_E1E2E3"
+    generatePlots(game, dimension, data, loadItems, agents, image_title)
+
+# Exploration: E4, E5, E6
+if(True):
+    dimension = EXPLORATION
+    d5_explorer_e4 = getFileResultsData(D5_E4_EXPLORER)
+    d5_explorer_e5 = getFileResultsData(D5_E5_EXPLORER)
+    d5_explorer_e6 = getFileResultsData(D5_E6_EXPLORER)
+    data = [d5_explorer_e4, d5_explorer_e5, d5_explorer_e6]
+    agents = ["E4", "E5", "E6"]
+    image_title = game + "_" + dimension + "_E4E5E6"
+    generatePlots(game, dimension, data, loadExploration, agents, image_title, [0,100])
+
+# Curiosity: E4
+if(True):
+    dimension = CURIOSITY
+    d5_curious_e4 = getFileResultsData(D5_E4_CURIOUS, 7)
+    data = [d5_curious_e4]
+    agents = ["E4"]
+    image_title = game + "_" + dimension + "_E4"
+    generatePlots(game, dimension, data, loadCuriosity, agents, image_title)
+
+# Hits: E4
+if(True):
+    dimension = HITS
+    d5_curious_e4 = getFileResultsData(D5_E4_CURIOUS, 7)
+    data = [d5_curious_e4]
+    agents = ["E4"]
+    image_title = game + "_" + dimension + "_E4"
+    generatePlots(game, dimension, data, loadHits, agents, image_title)
+
+# Score: E6
+if(True):
+    dimension = SCORE
+    d5_score_e6 = getFileResultsData(D5_E6_RECORDBREAKER)
+    data = [d5_score_e6]
+    agents = ["E6"]
+    image_title = game + "_" + dimension + "_E6"
+    generatePlots(game, dimension, data, loadScores, agents, image_title)
